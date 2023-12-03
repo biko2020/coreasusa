@@ -1,7 +1,8 @@
 <?php
-$lang = [
-    'welcome' => 'Welcome',
-    'profile_title' => 'User Profile',
-    // Other English text
+// *** Language File : English ***
+return [
+    'home' => 'Home',
+    'services'=> 'Services',
+    'contact'=> 'Contact',
 ];
 ?>

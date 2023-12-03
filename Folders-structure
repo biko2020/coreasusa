@@ -39,7 +39,7 @@ coreasusa/
 |   |   |-- error.log
 |   |-- lang/
 |   |   |-- en.php
-|   |   |-- es.php
+|   |   |-- fr.php
 |-- config/
 |   |-- config.php
 |-- vendor/

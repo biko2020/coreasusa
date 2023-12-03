@@ -1,9 +1,9 @@
 <?php
 
-$lang = [
-    'welcome' => 'Bienvenu',
-    'profile_title' => 'Perfil de Usuario',
-    // Other Spanish text
-];
-
+// *** Language File : French ***
+return [ 
+    'home'=> 'Inicio',
+    'services'=> 'Servicios',
+    'contact'=> 'Contacto',
+  ]
 ?>

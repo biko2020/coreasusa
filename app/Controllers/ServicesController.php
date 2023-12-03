@@ -6,7 +6,7 @@ class ServicesController
 {
     public function index()
     {
-
+        // implentation logic 
         // Render the view
         $this->render('Services/services.php');
     }

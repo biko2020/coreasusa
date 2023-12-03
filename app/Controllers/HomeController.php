@@ -9,7 +9,7 @@ class HomeController
     public function index()
     {
 
-        // You can perform any logic here if needed
+        // implentation logic 
 
         // Render the view
         $this->render('Home/home.php');

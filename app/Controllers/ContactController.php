@@ -6,7 +6,7 @@ class ContactController
 {
     public function index()
     {
-
+        // implentation logic 
         // Render the view
         $this->render('Contact/contact.php');
     }

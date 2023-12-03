@@ -3,15 +3,23 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// spl_autoload_register(function ($class) {
-//   // Convert class name to file path
-//   $classFile = __DIR__ . '/app/Controllers/' . str_replace('\\', '/', $class) . '.php';
+// ***  Load language file
 
-//   // Check if the file exists before including it
-//   if (file_exists($classFile)) {
-//       include $classFile;
-//   }
-// });
+// Selected language
+$selectedLanguage = 'fr';
+
+$langFile = __DIR__ . '/resources/lang/' . $selectedLanguage . '.php';
+
+if (file_exists($langFile)) {
+
+  $lang = include $langFile;
+
+} else {
+  // Add a default language file
+  $langFile = __DIR__ . '/resources/lang/en.php';
+  $lang = include $langFile;
+
+}
 
 //Load the autoload.php
 
@@ -25,7 +33,6 @@ try {
   $router = new Router();
 
   // Define your routes
-
   $router->addRoute('/coreasusa/', 'HomeController');
   $router->addRoute('/coreasusa/services', 'ServicesController');
   $router->addRoute('/coreasusa/contact', 'ContactController');
@@ -33,6 +40,8 @@ try {
   // Get the current URL without the base directory
   $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
+  //Include navbar.php and pass $lang as parametre
+  include __DIR__ . '/resources/views/navbar.php';
 
   // Dispatch the route
   $router->dispatch($url);
