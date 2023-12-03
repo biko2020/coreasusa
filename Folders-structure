@@ -1,0 +1,50 @@
+coreasusa/
+|-- app/
+|   |-- Controllers/
+|   |   |-- HomeController.php
+|   |   |-- ServicesController.php
+|   |   |-- ContactController.php
+|   |   |-- ...
+|   |-- Model/
+|   |   |-- model.php
+|   |   |-- ...
+|   |-- View/
+|   |   |-- User/
+|   |   |   |-- profile.php
+|   |   |   |-- ...
+|   |   |-- ...
+|   |-- helpers/
+|   |   |-- Helper1.php
+|   |   |-- ...
+|   |-- Router.php
+|-- public/
+|   |-- css/
+|   |   |-- style.css
+|   |-- js/
+|   |   |-- script.js
+|   |-- img/
+|   |   |-- logo.png
+|-- resources/
+|   |-- views/
+|   |   |-- User/
+|   |   |   |-- profile.php
+|   |   |-- Home/
+|   |   |   |-- home.php
+|   |   |-- Services/
+|   |   |   |-- services.php
+|   |   |-- Error/
+|   |   |   |-- not_found.php
+|   |   |-- navbar.php
+|   |-- logs/
+|   |   |-- error.log
+|   |-- lang/
+|   |   |-- en.php
+|   |   |-- es.php
+|-- config/
+|   |-- config.php
+|-- vendor/
+|   |-- autoload.php
+|-- index.php
+|-- .htaccess
+|-- .gitignore
+
