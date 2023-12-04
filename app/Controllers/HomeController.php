@@ -5,7 +5,6 @@ namespace Controllers;
 class HomeController
 {
 
-
     public function index()
     {
 
@@ -18,8 +17,11 @@ class HomeController
 
     private function render($view, $data = [])
     {
+        //Merge the $data array with $lang
+        $data = array_merge($data, ['lang' => $GLOBALS['lang']]);
+        extract($data);
 
-        // Assuming views are in the 'resources/views' directory
+        // include views directory
         include(__DIR__ . "/../../resources/views/$view");
     }
 

@@ -13,7 +13,7 @@ class ContactController
 
     private function render($view, $data = [])
     {
-        // the 'resources/views' directory
+        // Include views directory
         include(__DIR__ . "/../../resources/views/$view");
     }
 }
