@@ -9,7 +9,7 @@
 <body>
     <?php include(__DIR__ . '/../navbar.php'); ?>
 
-    <h1>Welcome to the Home Page!</h1>
+    <h1><?= $lang['title']?></h1>
 
     <!-- Your home page content here -->
 

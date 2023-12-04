@@ -1,9 +1,12 @@
 <?php
-
 // *** Language File : French ***
 return [ 
-    'home'=> 'Inicio',
+    'home'=> 'Accueil',
     'services'=> 'Servicios',
-    'contact'=> 'Contacto',
-  ]
+    'contact'=> 'Contact',
+
+    'title'=>'Bienvenue sur la page d\'accueil!',
+];
+
+
 ?>
