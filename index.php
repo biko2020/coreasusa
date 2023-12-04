@@ -7,8 +7,9 @@ try {
 
   // ***  Load language file
 
-  // Selected language
-  $selectedLanguage = 'en';
+  //language selector
+
+  $selectedLanguage = isset($_GET['lang']) ? $_GET['lang'] : 'en';
 
   $langFile = __DIR__ . '/resources/lang/' . $selectedLanguage . '.php';
 

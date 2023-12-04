@@ -23,6 +23,9 @@ coreasusa/
 |   |-- js/
 |   |   |-- script.js
 |   |-- img/
+|   |   |-- icons/
+|   |   |   |-- flag_en.png
+|   |   |   |-- flag_fr.png
 |   |   |-- logo.png
 |-- resources/
 |   |-- views/
