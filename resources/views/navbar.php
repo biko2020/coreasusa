@@ -24,22 +24,31 @@
           <div class="clearfix">
             <!-- Top Left -->
             <div class="top-left">
-              <div class="text">Welcome to our <a href="index.html#">Coreasusa</a> Company!</div>
+              <div class="text">
+                <?= $lang['top-header-message']; ?>
+              </div>
             </div>
 
             <!-- Top Right -->
             <div class="top-right pull-right">
-              <div class="clock">We'are Open: Mon - Sat 8:00 - 18:00</div>
+              <!-- <div class="clock"></div> -->
               <div class="social-box">
                 <a href="index.php#" class="fa fa-facebook"></a>
                 <a href="index.php#" class="fa fa-twitter"></a>
-                <a href="index.php#" class="fa fa-dribbble"></a>
-                <a href="index.php#" class="fa fa-behance"></a>
+                <a href="index.php#" class="fa fa-linkedin"></a>
+                <a href="index.php#" class="fa fa-youtube"></a>
+
+              </div>
+
+              <!-- Languages Box -->
+              <div class="language-selector">
+                <a class="english" href="?lang=en"><img src="/coreasusa/public/img/icons/flag_en.png" alt="English"></a>
+                <a class="french" href="?lang=fr"><img src="/coreasusa/public/img/icons/flag_fr.png" alt="French"></a>
               </div>
             </div>
-
           </div>
         </div>
+
       </div>
 
       <!-- Header Upper -->
@@ -48,7 +57,8 @@
           <div class="clearfix">
 
             <div class="pull-left logo-box">
-              <div class="logo"><a href="index.php"><img src="/coreasusa/public/img/logo.png" alt="" title="logo"></a></div>
+              <div class="logo"><a href="index.php"><img src="/coreasusa/public/img/logo.png" alt="" title="logo"></a>
+              </div>
             </div>
 
             <div class="pull-right upper-right clearfix">
@@ -57,8 +67,10 @@
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-telephone"></span></div>
                 <ul>
-                  <li><strong>Call Us for help!</strong></li>
-                  <li>+ (888) 452 1505</li>
+                  <li><strong>
+                      <?= $lang['call'] ?>
+                    </strong></li>
+                  <li>+ (617)447-9325</li>
                 </ul>
               </div>
 
@@ -66,8 +78,8 @@
               <div class="upper-column info-box">
                 <div class="icon-box"><span class="flaticon-placeholder"></span></div>
                 <ul>
-                  <li><strong>+ (888) 452 1505</strong></li>
-                  <li>30 Commercial Road, Australia</li>
+                  <li><strong>+ (781)521-0234</strong></li>
+                  <li>240 Zone Industrielle Zenata-Casablanca</li>
                 </ul>
               </div>
 
@@ -76,12 +88,11 @@
                 <div class="icon-box"><span class="flaticon-message"></span></div>
                 <ul>
                   <li><strong>Mail Us</strong></li>
-                  <li>help@gmail.com</li>
+                  <li>jboulal@coreasusa.com</li>
                 </ul>
               </div>
 
             </div>
-
           </div>
         </div>
       </div>
@@ -95,6 +106,7 @@
             <div class="nav-outer">
               <!-- Mobile Navigation Toggler -->
               <div class="mobile-nav-toggler"><span class="icon flaticon-menu-3"></span></div>
+
               <!-- Main Menu -->
               <nav class="main-menu navbar-expand-md">
                 <div class="navbar-header">
@@ -107,33 +119,59 @@
                     <span class="icon-bar"></span>
                   </button>
                 </div>
-
+                <!-- Menu Items -->
                 <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                   <ul class="navigation clearfix">
-                    <li><a href="/coreasusa/"><?=$lang['apropos'];?></a></li>
+                    <li><a href="/coreasusa/?lang=<?=$lang['language'];?>">
+                        <?= $lang['apropos']; ?>
+                      </a></li>
 
-                    <li class="dropdown"><a href="#"><?=$lang['solutions'];?></a>
+                    <li class="dropdown"><a href="#">
+                        <?= $lang['solutions']; ?>
+                      </a>
                       <ul>
-                        <li><a href="/coreasusa/vente"><?=$lang['vente'];?></a></li>
-                        <li><a href="/coreasusa/location"><?=$lang['location']?></a></li>
+                        <li><a href="/coreasusa/vente?lang=<?=$lang['language'];?>">
+                            <?= $lang['vente']; ?>
+                          </a></li>
+                        <li><a href="/coreasusa/location?lang=<?=$lang['language'];?>">
+                            <?= $lang['location']; ?>
+                          </a></li>
                       </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><?=$lang['materiels'];?></a>
+                    <li class="dropdown"><a href="#">
+                        <?= $lang['materiels']; ?>
+                      </a>
                       <ul>
-                        <li><a href="/coreasusa/manutention"><?=$lang['manutention'];?></a></li>
-                        <li><a href="/coreasusa/elevation"><?=$lang['elevation'];?></a></li>
-                        <li><a href="/coreasusa/traction"><?=$lang['traction'];?></a></li>
-                        <li><a href="/coreasusa/divers"><?=$lang['divers'];?></a></li>
+                        <li><a href="/coreasusa/manutention?lang=<?=$lang['language'];?>">
+                            <?= $lang['manutention']; ?>
+                          </a></li>
+                        <li><a href="/coreasusa/elevation?lang=<?=$lang['language'];?>">
+                            <?= $lang['elevation']; ?>
+                          </a></li>
+                        <li><a href="/coreasusa/traction?lang=<?=$lang['language'];?>">
+                            <?= $lang['traction']; ?>
+                          </a></li>
+                        <li><a href="/coreasusa/divers?lang=<?=$lang['language'];?>">
+                            <?= $lang['divers']; ?>
+                          </a></li>
                       </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><?=$lang['services'];?></a>
+                    <li class="dropdown"><a href="#">
+                        <?= $lang['services']; ?>
+                      </a>
                       <ul>
-                        <li><a href="/coreasusa/mise-en-service"><?=$lang['mise-en-service']?></a></li>
-                        <li><a href="/coreasusa/maintenance"><?=$lang['maintenance']?></a></li>
+                        <li><a href="/coreasusa/mise-en-service?lang=<?=$lang['language'];?>">
+                            <?= $lang['mise-en-service']; ?>
+                          </a></li>
+                        <li><a href="/coreasusa/maintenance?lang=<?=$lang['language'];?>">
+                            <?= $lang['maintenance']; ?>
+                          </a></li>
                       </ul>
                     </li>
 
-                    <li><a href="/coreasusa/contact"><?=$lang['contact']?></a></li>
+                    <li><a href="/coreasusa/contact?lang=<?=$lang['language'];?>">
+                        <?= $lang['contact']; ?>
+                      </a></li>
                   </ul>
                 </div>
               </nav>
@@ -184,16 +222,12 @@
           <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
       </div><!-- End Mobile Menu -->
-<!-- languages icons -->
-<div class="language-selector">
-      <a class="english" href="?lang=en"><img src="/coreasusa/public/img/icons/flag_en.png" alt="English"></a>
-      <a class="french" href="?lang=fr"><img src="/coreasusa/public/img/icons/flag_fr.png" alt="French"></a>
-    </div>
+
     </header>
     <!-- End Main Header -->
 
-    <?php } ?>
-    
+  <?php } ?>
+
 
 </body>
 

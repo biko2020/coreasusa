@@ -23,6 +23,13 @@ return [
 
     'contact' => 'Contact',
 
+     // ---- Messages -------//
+    'top-header-message'=>'Welcome to our Coreasusa Company! !',
+    'call'=>'Call Us for help!',
+
+    // --- lang ----//
+    'language'=>'en',
+
     // ----  Home Page -------//
     'home_Title1' => 'Welcome to the Home Page! ',
     'home_Section1' => 'The importance of a good first impression cannot be underestimated. 

@@ -2,7 +2,7 @@
 
 namespace Controllers;
 
-class ServicesController
+class VenteController
 {
     public function index()
     {

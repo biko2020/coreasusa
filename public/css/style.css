@@ -105,6 +105,26 @@
 	color:var(--white-color);
 }
 
+ /* ---Start Languages Boxe --- */
+ .header-top .top-right .language-selector {
+	position:relative;
+	float:left;
+	padding:13px 0px 13px 15px;
+
+	}
+
+.english img, .french img{
+  width: 20px;
+  height: auto;
+  border-radius: 4px;
+
+}
+
+.english:hover img .french:hover img{
+  opacity: 0.8;
+} 	
+/* --- End Languages Boxe --- */
+
 .main-header .main-box{
 	position:relative;
 	padding:0px 0px;
@@ -205,6 +225,7 @@
 	text-transform:capitalize;
 	font-family:var(--font-family-BeVietnam);
 }
+
 
 .main-header .header-lower{
 	position:absolute;
@@ -514,7 +535,7 @@
 
 .main-header .main-menu .navigation > li > ul > li > a:before{
 	position:absolute;
-	content:'//';
+	content:'->';
 	left:10px;
 	top:13px;
 	opacity:0;

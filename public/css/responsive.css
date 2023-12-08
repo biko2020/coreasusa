@@ -1,4 +1,4 @@
-/* Industo Industry HTML Template */
+/* HTML Template */
 
 @media only screen and (max-width: 2200px){
 	
@@ -1205,6 +1205,17 @@
 		text-align:center;
 	}
 	
+		
+	.header-top .top-right .lanuage-selector{
+		padding-left:var(--padding-zero);
+	}
+	
+	.header-top .top-right,
+	.header-top .top-right .language-selector{
+		display: flex;	
+		
+	}
+
 	h1{
 		line-height:1.3em;
 		font-size:var(--font-30);
