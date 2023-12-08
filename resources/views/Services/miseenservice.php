@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$lang['traction']?></title>
+	<title><?=$lang['miseenservice']?></title>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/coreasusa/public/css/bootstrap.css">
@@ -59,7 +59,7 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1><?=$lang['traction']?> </h1>
+		<h1><?=$lang['miseenservice']?> </h1>
 
 	</div>
 	<!-- End page-wrapper -->

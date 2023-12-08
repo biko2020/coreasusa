@@ -122,7 +122,7 @@
                 <!-- Menu Items -->
                 <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                   <ul class="navigation clearfix">
-                    <li><a href="/coreasusa/?lang=<?=$lang['language'];?>">
+                    <li><a href="/coreasusa/?lang=<?= $lang['language']; ?>">
                         <?= $lang['apropos']; ?>
                       </a></li>
 
@@ -130,10 +130,10 @@
                         <?= $lang['solutions']; ?>
                       </a>
                       <ul>
-                        <li><a href="/coreasusa/vente?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/vente?lang=<?= $lang['language']; ?>">
                             <?= $lang['vente']; ?>
                           </a></li>
-                        <li><a href="/coreasusa/location?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/location?lang=<?= $lang['language']; ?>">
                             <?= $lang['location']; ?>
                           </a></li>
                       </ul>
@@ -142,16 +142,16 @@
                         <?= $lang['materiels']; ?>
                       </a>
                       <ul>
-                        <li><a href="/coreasusa/manutention?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/manutention?lang=<?= $lang['language']; ?>">
                             <?= $lang['manutention']; ?>
                           </a></li>
-                        <li><a href="/coreasusa/elevation?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/elevation?lang=<?= $lang['language']; ?>">
                             <?= $lang['elevation']; ?>
                           </a></li>
-                        <li><a href="/coreasusa/traction?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/traction?lang=<?= $lang['language']; ?>">
                             <?= $lang['traction']; ?>
                           </a></li>
-                        <li><a href="/coreasusa/divers?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
                             <?= $lang['divers']; ?>
                           </a></li>
                       </ul>
@@ -160,16 +160,16 @@
                         <?= $lang['services']; ?>
                       </a>
                       <ul>
-                        <li><a href="/coreasusa/mise-en-service?lang=<?=$lang['language'];?>">
-                            <?= $lang['mise-en-service']; ?>
+                        <li><a href="/coreasusa/miseenservice?lang=<?= $lang['language']; ?>">
+                            <?= $lang['miseenservice']; ?>
                           </a></li>
-                        <li><a href="/coreasusa/maintenance?lang=<?=$lang['language'];?>">
+                        <li><a href="/coreasusa/maintenance?lang=<?= $lang['language']; ?>">
                             <?= $lang['maintenance']; ?>
                           </a></li>
                       </ul>
                     </li>
 
-                    <li><a href="/coreasusa/contact?lang=<?=$lang['language'];?>">
+                    <li><a href="/coreasusa/contact?lang=<?= $lang['language']; ?>">
                         <?= $lang['contact']; ?>
                       </a></li>
                   </ul>
@@ -195,7 +195,10 @@
         <div class="auto-container clearfix">
           <!--Logo-->
           <div class="logo pull-left">
-            <a href="index.html" title=""><img src="images/logo-small.png" alt="" title=""></a>
+            <a href="/coreasusa/?lang=<?= $lang['language']; ?>">
+              <?= $lang['apropos']; ?>
+              <img src="/coreasusa/public/img/logo-small.png" alt="" title="">
+            </a>
           </div>
           <!--Right Col-->
           <div class="pull-right">
@@ -218,7 +221,10 @@
         <div class="close-btn"><span class="icon fa fa-close"></span></div>
 
         <nav class="menu-box">
-          <div class="nav-logo"><a href="index.html"><img src="/coreasusa/public/img/logo.png" alt="" title=""></a></div>
+          <div class="nav-logo"><a href="/coreasusa/?lang=<?= $lang['language']; ?>">
+              <?= $lang['apropos']; ?>
+              <img src="/coreasusa/public/img/logo.png" alt="" title="">
+            </a></a></div>
           <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
       </div><!-- End Mobile Menu -->

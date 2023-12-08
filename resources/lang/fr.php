@@ -18,7 +18,7 @@ return [
 
     'services' => 'SERVICES',
         // ---- Sub Menu -------//
-        'mise-en-service'=> 'Mise en service',
+        'miseenservice'=> 'Mise en service',
         'maintenance'=> 'Maintenance',  
           
     'contact' => 'Contact',
