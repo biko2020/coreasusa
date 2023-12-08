@@ -2,13 +2,17 @@
 
 namespace Controllers;
 
-class ContactController
+class MiseenserviceController
 {
+
     public function index()
     {
+
         // implentation logic 
+
         // Render the view
-        $this->render('Contact/contact.php');
+        $this->render('Services/mise-en-service.php');
+
     }
 
     private function render($view, $data = [])
@@ -20,4 +24,5 @@ class ContactController
         // include views directory
         include(__DIR__ . "/../../resources/views/$view");
     }
+
 }

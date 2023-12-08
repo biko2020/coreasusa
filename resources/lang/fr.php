@@ -2,8 +2,25 @@
 // *** Language File : French ***
 return [
     // ---- Menu -------//
-    'home' => 'Accueil',
-    'services' => 'Servicios',
+    'apropos' => 'ÀPROPOS',
+
+    'solutions' => 'SOLUTIONS',
+        // ---- Sub Menu -------//
+        'vente'=> 'Vente matériels d\'occasion',
+        'location'=> 'Location matériels d\'occasion',
+
+    'materiels'=>'MATÉRIELS',  
+        // ---- Sub Menu -------//
+        'manutention'=> 'Manutention',
+        'elevation'=> 'Elévation',
+        'traction'=>'Traction',
+        'divers'=>'Divers',
+
+    'services' => 'SERVICES',
+        // ---- Sub Menu -------//
+        'mise-en-service'=> 'Mise en service',
+        'maintenance'=> 'Maintenance',  
+          
     'contact' => 'Contact',
 
     // ----  Home Page -------//

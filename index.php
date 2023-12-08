@@ -36,7 +36,9 @@ try {
 
   // Define your routes
   $router->addRoute('/coreasusa/', 'HomeController');
-  $router->addRoute('/coreasusa/services', 'ServicesController');
+  $router->addRoute('/coreasusa/vente', 'VenteController');
+  $router->addRoute('/coreasusa/manutention','ManutentionController');
+  $router->addRoute('/coreasusa/mise-en-services','MiseenserviceController');
   $router->addRoute('/coreasusa/contact', 'ContactController');
 
   // Get the current URL without the base directory

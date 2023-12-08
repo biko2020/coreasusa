@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
-    <?php include(__DIR__ . '/../navbar.php'); ?>
+
 
     <h1>Contact Us</h1>
 

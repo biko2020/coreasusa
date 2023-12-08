@@ -11,7 +11,7 @@ class HomeController
         // implentation logic 
 
         // Render the view
-        $this->render('Home/home.php');
+        $this->render('Home/apropos.php');
 
     }
 

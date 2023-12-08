@@ -2,8 +2,25 @@
 // *** Language File : English ***
 return [
     // ---- Menu -------//
-    'home' => 'Home',
-    'services' => 'Services',
+    'apropos' => 'ABOUT-US',
+
+    'solutions' => 'SOLUTIONS',
+          // ---- Sub Menu -------//
+          'vente'=> 'Sale of used equipment',
+          'location'=> 'Rental of used equipment',
+
+     'materiels'=>'EQUIPMENT',  
+          // ---- Sub Menu -------//
+          'manutention'=> 'Handling',
+          'elevation'=> 'Lifting',
+          'traction'=>'Traction',
+          'divers'=>'Various',
+
+     'services' => 'SERVICES',
+          // ---- Sub Menu -------//
+          'mise-en-service'=> 'Commissioning',
+          'maintenance'=> 'Servicing',  
+
     'contact' => 'Contact',
 
     // ----  Home Page -------//

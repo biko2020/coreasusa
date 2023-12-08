@@ -90,16 +90,9 @@
 
 	
 
-	
-
 </div>
 <!-- End page-wrapper -->
-    <h1>
-        <?= isset($lang['home_Title1']) ? $lang['home_Title1'] : 'Default Title' ?>
-    </h1>
-    <p>
-        <?= isset($lang['home_Section1']) ? $lang['home_Section1'] : 'Default Content' ?>
-    </p>
+
 
     
     <script src="/coreasusa/public/js/jquery.js"></script>

@@ -1,0 +1,26 @@
+.nav-bar {
+  display: flex;
+  background: orange;
+}
+
+.language-selector {
+position : relative; 
+}
+/* .language-selector a {
+  position: absolute;
+  top:0;
+  left: 0;
+  margin-left: 5px;
+} */
+
+
+.english img, .french img{
+  width: 20px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+.english:hover img .french:hover img{
+  opacity: 0.8;
+} 
