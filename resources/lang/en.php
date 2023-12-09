@@ -31,8 +31,8 @@ return [
     'language'=>'en',
 
     // ----  Home Page -------//
-    'home_Title1' => 'Welcome to the Home Page! ',
-    'home_Section1' => 'The importance of a good first impression cannot be underestimated. 
-     Many businesses know this and attract customers by greeting them first. That\'s why Facebook added a little feature to recreate this experience on Facebook Pages. In this article, you\'ll learn about the welcome message for Facebook Pages, how it works, and how to create your own. Additionally, we provide you with some examples of Facebook Messenger welcome messages for different occasions.',
+    'apropos-slide-Title1' => 'Quality Used Equipment Solutions',
+    'apropos-slide-Text' => 'We offer an extensive range of top-quality used equipment in handling, lifting, traction, batteries, and more. Specializing in used equipment, we are committed to helping you find the perfect solution for your business needs and budget.
+    ',
 ];
 ?>

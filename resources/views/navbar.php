@@ -21,6 +21,7 @@
       <!-- Header Top -->
       <div class="header-top">
         <div class="auto-container">
+
           <div class="clearfix">
             <!-- Top Left -->
             <div class="top-left">
@@ -33,10 +34,10 @@
             <div class="top-right pull-right">
               <!-- <div class="clock"></div> -->
               <div class="social-box">
-                <a href="index.php#" class="fa fa-facebook"></a>
-                <a href="index.php#" class="fa fa-twitter"></a>
-                <a href="index.php#" class="fa fa-linkedin"></a>
-                <a href="index.php#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
 
               </div>
 
@@ -180,7 +181,7 @@
               <div class="outer-box clearfix">
 
                 <!-- Search Btn -->
-                <div class="search-box-btn search-box-outer"><span class="icon flaticon-loupe"></span></div>
+                <!-- <div class="search-box-btn search-box-outer"><span class="icon flaticon-loupe"></span></div> -->
 
               </div>
             </div>
@@ -205,8 +206,8 @@
             <!-- Main Menu -->
             <nav class="main-menu">
               <!--Keep This Empty / Menu will come through Javascript-->
-
-            </nav><!-- Main Menu End-->
+            </nav>
+            <!-- Main Menu End-->
 
             <!-- Mobile Navigation Toggler -->
             <div class="mobile-nav-toggler"><span class="icon flaticon-menu-3"></span></div>
@@ -224,8 +225,9 @@
           <div class="nav-logo"><a href="/coreasusa/?lang=<?= $lang['language']; ?>">
               <?= $lang['apropos']; ?>
               <img src="/coreasusa/public/img/logo.png" alt="" title="">
-            </a></a></div>
-          <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </a>
+          </div>
+          <div class="menu-outer"><!--Come Automatically Via Javascript / Same Menu as in Header--></div>
         </nav>
       </div><!-- End Mobile Menu -->
 

@@ -31,7 +31,6 @@
 
 <body>
 
-
 	<!-- ---wrapper-- -->
 	<div class="page-wrapper">
 
@@ -94,7 +93,73 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1><?=$lang['apropos']?> </h1>
+			<!-- Main Slider Section -->
+			<section class="main-slider">
+		<div class="main-slider-carousel owl-theme owl-carousel">
+		
+			<!-- Slide 01 -->
+			<div class="slide">
+				<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-1.jpg)"></div>
+				<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)"></div>
+				<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)"></div>
+				<div class="auto-container">
+					<!-- Content Column -->
+					<div class="content-column">
+						<div class="inner-column">
+							<h1><?=$lang['apropos-slide-Title1']?></h1>
+							<div class="text"><?=$lang['apropos-slide-Text']?></div>
+							<div class="button-box">
+								<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Slide 01 -->
+			
+			<!-- Slide 02 -->
+			<div class="slide">
+				<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-2.jpg)"></div>
+				<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)"></div>
+				<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)"></div>
+				<div class="auto-container">
+					<!-- Content Column -->
+					<div class="content-column">
+						<div class="inner-column">
+							<h1><?=$lang['apropos-slide-Title1']?></h1>
+							<div class="text"><?=$lang['apropos-slide-Text']?></div>
+							<div class="button-box">
+								<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Slide 02 -->
+			
+			<!-- Slide 03 -->
+			<div class="slide">
+				<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-3.jpg)"></div>
+				<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)"></div>
+				<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)"></div>
+				<div class="auto-container">
+					<!-- Content Column -->
+					<div class="content-column">
+						<div class="inner-column">
+						<h1><?=$lang['apropos-slide-Title1']?></h1>
+							<div class="text"><?=$lang['apropos-slide-Text']?></div>
+							<div class="button-box">
+								<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Slide 03 -->
+			
+		</div>
+    </section>
+    <!-- End Main Slider Section -->
 
 	</div>
 	<!-- End page-wrapper -->

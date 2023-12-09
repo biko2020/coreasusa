@@ -31,14 +31,11 @@ return [
     'language'=>'fr',
 
     // ----  Home Page -------//
-    'home_Title1' => 'Bienvenue sur la page d\'accueil!',
-    'home_Section1' => 'L\'importance d\'une bonne première impression ne peut être sous-estimée. 
-    De nombreuses entreprises le savent et attirent les clients en les saluant en premier. 
-    C\'est pourquoi Facebook a ajouté une petite fonctionnalité permettant de recréer cette expérience sur les pages Facebook. 
-    Dans cet article, vous découvrirez le message de bienvenue pour les pages Facebook, comment il fonctionne et comment créer le vôtre. 
-    De plus, nous vous proposons quelques exemples de messages de bienvenue Facebook Messenger pour différentes occasions.
+    'apropos-slide-Title1' => 'Solutions d\'Équipements d\'Occasion de Qualité',
+    'apropos-slide-Text' => 'Nous proposons une large gamme d\'équipements d\'occasion de haute qualité dans la manutention, le levage, la traction, les batteries, et bien plus encore. Spécialisés dans les équipements d\'occasion, nous nous engageons à vous aider à trouver la solution parfaite pour vos besoins professionnels et votre budget.
     ',
 ];
+
 
 
 ?>
