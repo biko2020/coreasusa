@@ -4,28 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$lang['apropos']?></title>
+	<title>
+		<?= $lang['apropos'] ?>
+	</title>
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/coreasusa/public/css/bootstrap.css">
-	<link rel="stylesheet" href="/coreasusa/public/css/style.css">
-	<link rel="stylesheet" href="/coreasusa/public/css/responsive.css">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-	<link
-		href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
-
-	<link rel="shortcut icon" href="/coreasusa/public/img/favicon.png" type="image/x-icon">
-	<link rel="icon" href="/coreasusa/public/img/favicon.png" type="image/x-icon">
-
-	<!-- Responsive -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
 </head>
 
@@ -93,73 +75,146 @@
 		</div>
 		<!-- scrollToTop end -->
 
-			<!-- Main Slider Section -->
-			<section class="main-slider">
-		<div class="main-slider-carousel owl-theme owl-carousel">
-		
-			<!-- Slide 01 -->
-			<div class="slide">
-				<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-1.jpg)"></div>
-				<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)"></div>
-				<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)"></div>
-				<div class="auto-container">
-					<!-- Content Column -->
-					<div class="content-column">
-						<div class="inner-column">
-							<h1><?=$lang['apropos-slide-Title1']?></h1>
-							<div class="text"><?=$lang['apropos-slide-Text']?></div>
-							<div class="button-box">
-								<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+		<!-- Main Slider Section -->
+		<section class="main-slider">
+			<div class="main-slider-carousel owl-theme owl-carousel">
+
+				<!-- Slide 01 -->
+				<div class="slide">
+					<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-1.jpg)"></div>
+					<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)">
+					</div>
+					<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)">
+					</div>
+					<div class="auto-container">
+						<!-- Content Column -->
+						<div class="content-column">
+							<div class="inner-column">
+								<h1>
+									<?= $lang['apropos-slide-Title1'] ?>
+								</h1>
+								<div class="text">
+									<?= $lang['apropos-slide-Text'] ?>
+								</div>
+								<div class="button-box">
+									<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span
+											class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End Slide 01 -->
-			
-			<!-- Slide 02 -->
-			<div class="slide">
-				<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-2.jpg)"></div>
-				<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)"></div>
-				<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)"></div>
-				<div class="auto-container">
-					<!-- Content Column -->
-					<div class="content-column">
-						<div class="inner-column">
-							<h1><?=$lang['apropos-slide-Title1']?></h1>
-							<div class="text"><?=$lang['apropos-slide-Text']?></div>
-							<div class="button-box">
-								<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+				<!-- End Slide 01 -->
+
+				<!-- Slide 02 -->
+				<div class="slide">
+					<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-2.jpg)"></div>
+					<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)">
+					</div>
+					<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)">
+					</div>
+					<div class="auto-container">
+						<!-- Content Column -->
+						<div class="content-column">
+							<div class="inner-column">
+								<h1>
+									<?= $lang['apropos-slide-Title1'] ?>
+								</h1>
+								<div class="text">
+									<?= $lang['apropos-slide-Text'] ?>
+								</div>
+								<div class="button-box">
+									<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span
+											class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End Slide 02 -->
-			
-			<!-- Slide 03 -->
-			<div class="slide">
-				<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-3.jpg)"></div>
-				<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)"></div>
-				<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)"></div>
-				<div class="auto-container">
-					<!-- Content Column -->
-					<div class="content-column">
-						<div class="inner-column">
-						<h1><?=$lang['apropos-slide-Title1']?></h1>
-							<div class="text"><?=$lang['apropos-slide-Text']?></div>
-							<div class="button-box">
-								<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+				<!-- End Slide 02 -->
+
+				<!-- Slide 03 -->
+				<div class="slide">
+					<div class="image-layer" style="background-image:url(/coreasusa/public/img/main-slider/image-3.jpg)"></div>
+					<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/main-slider/pattern-1.png)">
+					</div>
+					<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/main-slider/pattern-2.png)">
+					</div>
+					<div class="auto-container">
+						<!-- Content Column -->
+						<div class="content-column">
+							<div class="inner-column">
+								<h1>
+									<?= $lang['apropos-slide-Title1'] ?>
+								</h1>
+								<div class="text">
+									<?= $lang['apropos-slide-Text'] ?>
+								</div>
+								<div class="button-box">
+									<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span
+											class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- End Slide 03 -->
+
 			</div>
-			<!-- End Slide 03 -->
-			
-		</div>
-    </section>
-    <!-- End Main Slider Section -->
+		</section>
+		<!-- End Main Slider Section -->
+
+		<!-- Service Section -->
+		<section class="service-section">
+			<div class="auto-container">
+				<div class="inner-container">
+					<div class="row clearfix">
+
+						<!-- Service Block -->
+						<div class="service-block col-lg-4 col-md-6 col-sm-12">
+							<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)"></div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)"></div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)"></div>
+								<div class="icon flaticon-forklifts">
+								</div>
+								<h5><a class="oil-gas.html" href="#">Forklifts</a></h5>
+								<div class="text">Forklifts</div>
+								<a class="read-more" href="oil-gas.html">Read More <span class="flaticon-right-arrow"></span></a>
+							</div>
+						</div>
+
+						<!-- Service Block -->
+						<div class="service-block col-lg-4 col-md-6 col-sm-12">
+							<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)"></div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)"></div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)"></div>
+								<div class="icon flaticon-pallet-jack"></div>
+								<h5><a class="oil-gas.html" href="#">Pallet Jack</a></h5>
+								<div class="text">Pallet Jack</div>
+								<a class="read-more" href="oil-gas.html">Read More <span class="flaticon-right-arrow"></span></a>
+							</div>
+						</div>
+
+						<!-- Service Block -->
+						<div class="service-block col-lg-4 col-md-6 col-sm-12">
+							<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)"></div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)"></div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)"></div>
+								<div class="icon flaticon-tiers"></div>
+								<h5><a class="oil-gas.html" href="#">Tires</a></h5>
+								<div class="text">Tires</div>
+								<a class="read-more" href="oil-gas.html">Read More <span class="flaticon-right-arrow"></span></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Service Section -->
 
 	</div>
 	<!-- End page-wrapper -->
