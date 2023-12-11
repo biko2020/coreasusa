@@ -32,7 +32,25 @@ return [
 
     // ----  Home Page -------//
     'apropos-slide-Title1' => 'Quality Used Equipment Solutions',
-    'apropos-slide-Text' => 'We offer an extensive range of top-quality used equipment in handling, lifting, traction, batteries, and more. Specializing in used equipment, we are committed to helping you find the perfect solution for your business needs and budget.
+    'apropos-slide-Text' => 'Specializing in used equipment, we are committed to helping you find the perfect solution for your business needs and budget.
     ',
+
+     // ----  service Block -------//
+      'forklifts' => 'Forklifts',
+      'pallet-jack'=> 'Pallet Jack',
+      'tires'=> 'Tires',
+      'read-more'=>'Read More',
+
+     // ----  About Section -------//
+      'about-company'=>'About our Company',
+      'about-title'=> 'Who we are ',
+      'about-text'=> ' Coreas USA has been an industry-leading Forklift Dealer since 2017. We only offer our customers the highest quality products available on the market - and for the best prices, you’ll find anywhere in Morocco and beyond. Want to know more? Get in touch with a member of our team today.',
+     'about-icon-1'=> 'Equip your factory at a lower cost.',
+
+
+
+
+
+       // ---- End  Home Page -------//
 ];
 ?>

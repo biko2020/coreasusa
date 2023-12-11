@@ -173,40 +173,67 @@
 						<!-- Service Block -->
 						<div class="service-block col-lg-4 col-md-6 col-sm-12">
 							<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)"></div>
-								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)"></div>
-								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)"></div>
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
+								</div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)">
+								</div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
+								</div>
 								<div class="icon flaticon-forklifts">
 								</div>
-								<h5><a class="oil-gas.html" href="#">Forklifts</a></h5>
-								<div class="text">Forklifts</div>
-								<a class="read-more" href="oil-gas.html">Read More <span class="flaticon-right-arrow"></span></a>
+								<h5><a class="oil-gas.html" href="#">
+										<?= $lang['forklifts'] ?>
+									</a></h5>
+								<div class="text">
+									<?= $lang['forklifts'] ?>
+								</div>
+								<a class="read-more" href="#">
+									<?= $lang['read-more'] ?> <span class="flaticon-right-arrow"></span>
+								</a>
 							</div>
 						</div>
 
 						<!-- Service Block -->
 						<div class="service-block col-lg-4 col-md-6 col-sm-12">
 							<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)"></div>
-								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)"></div>
-								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)"></div>
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
+								</div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)">
+								</div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
+								</div>
 								<div class="icon flaticon-pallet-jack"></div>
-								<h5><a class="oil-gas.html" href="#">Pallet Jack</a></h5>
-								<div class="text">Pallet Jack</div>
-								<a class="read-more" href="oil-gas.html">Read More <span class="flaticon-right-arrow"></span></a>
+								<h5><a class="oil-gas.html" href="#">
+										<?= $lang['pallet-jack'] ?>
+									</a></h5>
+								<div class="text">
+									<?= $lang['pallet-jack'] ?>
+								</div>
+								<a class="read-more" href="#">
+									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
+								</a>
 							</div>
 						</div>
 
 						<!-- Service Block -->
 						<div class="service-block col-lg-4 col-md-6 col-sm-12">
 							<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)"></div>
-								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)"></div>
-								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)"></div>
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
+								</div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)">
+								</div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
+								</div>
 								<div class="icon flaticon-tiers"></div>
-								<h5><a class="oil-gas.html" href="#">Tires</a></h5>
-								<div class="text">Tires</div>
-								<a class="read-more" href="oil-gas.html">Read More <span class="flaticon-right-arrow"></span></a>
+								<h5><a class="oil-gas.html" href="#">
+										<?= $lang['tires'] ?>
+									</a></h5>
+								<div class="text">
+									<?= $lang['tires'] ?>
+								</div>
+								<a class="read-more" href="#">
+									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
+								</a>
 							</div>
 						</div>
 
@@ -215,6 +242,80 @@
 			</div>
 		</section>
 		<!-- End Service Section -->
+
+
+		<!-- About Section -->
+		<section class="about-section">
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!-- Content Column -->
+					<div class="content-column col-lg-7 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="sec-title">
+								<div class="big-text">Coreasusa</div>
+								<div class="title"><?= $lang['about-company'] ?></div>
+								<h2><?= $lang['about-title'] ?></h2>
+								<div class="text"><?= $lang['about-text'] ?></div>
+							</div>
+							<div class="row clearfix">
+
+								<!-- Feature Block -->
+								<div class="feature-block col-lg-6 col-md-6 col-sm-12">
+									<div class="inner-box">
+										<span class="icon flaticon-factory"></span>
+										<h5><?= $lang['about-icon-1'] ?></h5>
+									</div>
+								</div>
+
+								<!-- Feature Block -->
+								<div class="feature-block col-lg-6 col-md-6 col-sm-12">
+									<div class="inner-box">
+										<!-- <span class="icon flaticon-customer-support"></span>
+										<h5></h5> -->
+									</div>
+								</div>
+
+							</div>
+							<!-- Lower Box -->
+							<div class="lower-box clearfix">
+								<div class="button-box">
+									<a class="btn-style-one theme-btn" href="/coreasusa/contact?lang=<?= $lang['language']; ?>"><span
+											class="txt">
+											<?= $lang['contact'] ?> <i class="arrow fa fa-angle-right"></i>
+										</span></a>
+								</div>
+								<div class="phone-box">
+									<div class="box-inner">
+										<span class="icon flaticon-telephone"></span>
+										<?= $lang['call'] ?>
+										<strong>+ (617)447-9325</strong>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image">
+								<img src="/coreasusa/public/img/about-block/about.jpg" alt="" />
+								<div class="circle-layer"
+									style="background-image:url(/coreasusa/public/img/about-block/about-circle.png)"></div>
+								<span class="gear-icon-one flaticon-gear"></span>
+								<span class="gear-icon-two flaticon-gear"></span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End About Section -->
+
+
+		
 
 	</div>
 	<!-- End page-wrapper -->
