@@ -48,8 +48,11 @@ return [
       'about-text'=> 'Coreas USA est un concessionnaire de chariots élévateurs de premier plan dans l\'industrie depuis 2017. Nous proposons exclusivement à nos clients des produits de la plus haute qualité disponibles sur le marché, et ce, aux meilleurs prix que vous trouverez au Maroc et au-delà. Vous souhaitez en savoir plus ? Contactez dès aujourd\'hui un membre de notre équipe.',
     'about-icon-1'=> 'Équipez votre usine à moindre coût.',
 
-
-
+     // ----  Solution Section -------//
+     'solution-title'=> 'Nos Solutions',
+     'solution-slogan'=> 'Améliorez la compétitivité de vos secteurs d’activité <br> grâce à nos équipements haut de gamme.',
+     'solution-vente'=> 'Nous offrons une vaste gamme d\'équipements d\'occasion de qualité supérieure, spécialisés dans la manutention, le levage, la traction, les batteries, et plus encore. Notre engagement est de vous aider à trouver la solution parfaite qui répond à vos besoins professionnels tout en respectant votre budget.',
+     'solution-location'=> 'Découvrez la commodité de la location d\'équipements d\'occasion de haute qualité avec nous. Notre vaste sélection couvre diverses catégories, notamment la manutention, le levage, la traction, les batteries, et bien plus encore. Axés sur la fourniture de solutions de haute qualité, notre engagement est de vous aider à trouver l\'équipement idéal qui correspond à vos besoins professionnels tout en restant économique.',
 
      // ---- End  Home Page -------//
     ];

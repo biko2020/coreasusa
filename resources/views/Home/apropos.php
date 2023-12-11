@@ -164,7 +164,7 @@
 		</section>
 		<!-- End Main Slider Section -->
 
-		<!-- Service Section -->
+		<!-- Block Section -->
 		<section class="service-section">
 			<div class="auto-container">
 				<div class="inner-container">
@@ -241,7 +241,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- End Service Section -->
+		<!-- End Block Section -->
 
 
 		<!-- About Section -->
@@ -314,7 +314,177 @@
 		</section>
 		<!-- End About Section -->
 
-
+	<!-- Solution Section -->
+	<section class="service-section-two">
+		<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/1.jpg)"></div>
+		<div class="auto-container">
+			<div class="sec-title centered">
+				<div class="big-text">Solutions</div>
+				<div class="title"><?=$lang['solution-title']?></div>
+				<h2><?=$lang['solution-slogan']?></h2>
+			</div>
+			<div class="three-item-carousel owl-carousel owl-theme">
+			
+				<!-- Solution Block One -->
+				<div class="service-block-two">
+					<div class="inner-box">
+						<div class="image">
+							<img src="/coreasusa/public/img/service-section/service-1.jpeg" alt="" />
+							<div class="overlay-box">
+								<span class="icon flaticon-factory"></span>
+								<div class="content">
+									<h5><?=$lang['vente']?></h5>
+									<div class="title"><?=$lang['solutions']?></div>
+								</div>
+							</div>
+							<div class="overlay-box-two">
+								<span class="icon-two flaticon-factory"></span>
+								<div class="overlay-inner">
+									<div class="overlay-content">
+										<h5><a href="oil-gas.html"><?=$lang['vente']?></a></h5>
+										<div class="text"><?=$lang['solution-vente']?></div>
+										<a href="/coreasusa/vente?lang=<?= $lang['language']; ?>" class="read-more"><?=$lang['read-more']?><span class="flaticon-next-3"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Solution Block Two -->
+				<div class="service-block-two style-two">
+					<div class="inner-box">
+						<div class="image">
+							<img src="/coreasusa/public/img/service-section/service-2.jpeg" alt="" />
+							<div class="overlay-box">
+								<span class="icon flaticon-factory"></span>
+								<div class="content">
+									<h5><?=$lang['location']?></h5>
+									<div class="title"><?=$lang['solutions']?></div>
+								</div>
+							</div>
+							<div class="overlay-box-two">
+								<span class="icon-two flaticon-factory"></span>
+								<div class="overlay-inner">
+									<div class="overlay-content">
+										<h5><a href="oil-gas.html"><?=$lang['location']?></a></h5>
+										<div class="text"><?=$lang['solution-location']?></div>
+										<a href="/coreasusa/location?lang=<?= $lang['language']; ?>"  class="read-more"><?=$lang['read-more']?><span class="flaticon-next-3"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Solution Block Three -->
+				<div class="service-block-two style-three">
+					<div class="inner-box">
+						<div class="image">
+							<img src="images/resource/service-3.jpg" alt="" />
+							<div class="overlay-box">
+								<span class="icon flaticon-water-control"></span>
+								<div class="content">
+									<h5>Engineering</h5>
+									<div class="title">Services</div>
+								</div>
+							</div>
+							<div class="overlay-box-two">
+								<span class="icon-two flaticon-water-control"></span>
+								<div class="overlay-inner">
+									<div class="overlay-content">
+										<h5><a href="oil-gas.html">Plumbing</a></h5>
+										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
+										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Soultion Block Four -->
+				<div class="service-block-two">
+					<div class="inner-box">
+						<div class="image">
+							<img src="images/resource/service-1.jpg" alt="" />
+							<div class="overlay-box">
+								<span class="icon flaticon-drop-of-liquid"></span>
+								<div class="content">
+									<h5>Engineering</h5>
+									<div class="title">Services</div>
+								</div>
+							</div>
+							<div class="overlay-box-two">
+								<span class="icon-two flaticon-drop-of-liquid"></span>
+								<div class="overlay-inner">
+									<div class="overlay-content">
+										<h5><a href="oil-gas.html">Eco & Bio Power Services</a></h5>
+										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
+										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Solution Block Five -->
+				<div class="service-block-two style-two">
+					<div class="inner-box">
+						<div class="image">
+							<img src="images/resource/service-2.jpg" alt="" />
+							<div class="overlay-box">
+								<span class="icon flaticon-factory"></span>
+								<div class="content">
+									<h5>Engineering</h5>
+									<div class="title">Services</div>
+								</div>
+							</div>
+							<div class="overlay-box-two">
+								<span class="icon-two flaticon-factory"></span>
+								<div class="overlay-inner">
+									<div class="overlay-content">
+										<h5><a href="oil-gas.html">Engineering</a></h5>
+										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
+										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Solution Block Six -->
+				<div class="service-block-two style-three">
+					<div class="inner-box">
+						<div class="image">
+							<img src="images/resource/service-3.jpg" alt="" />
+							<div class="overlay-box">
+								<span class="icon flaticon-water-control"></span>
+								<div class="content">
+									<h5>Engineering</h5>
+									<div class="title">Services</div>
+								</div>
+							</div>
+							<div class="overlay-box-two">
+								<span class="icon-two flaticon-water-control"></span>
+								<div class="overlay-inner">
+									<div class="overlay-content">
+										<h5><a href="oil-gas.html">Plumbing</a></h5>
+										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
+										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Service Section -->
 		
 
 	</div>

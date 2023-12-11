@@ -2787,7 +2787,7 @@
 	font-size:var(--font-44);
 	color:var(--white-color);
 	font-family: "Flaticon";
-	background-color:var(--color-eleven);
+	background-color:var(--main-color);
 }
 
 .service-block-two .inner-box .overlay-box .content{
@@ -2856,7 +2856,7 @@
 	font-size:var(--font-44);
 	color:var(--white-color);
 	font-family: "Flaticon";
-	background-color:var(--color-eleven);
+	background-color:var(--main-color);
 }
 
 .service-block-two .inner-box .overlay-box-two .icon-two:after{
@@ -2864,7 +2864,7 @@
 	content:'';
 	right:0px;
 	bottom:-18px;
-	border-top: 18px solid var(--color-twelve);
+	border-top: 18px solid var(--main-color);
 	border-right: 30px solid transparent;
 }
 
@@ -2902,7 +2902,7 @@
 }
 
 .service-block-two .inner-box .overlay-box-two h5 a:hover{
-	color:var(--color-eleven);
+	color:var(--main-color);
 }
 
 .service-block-two .inner-box .overlay-box-two .text{
@@ -2921,7 +2921,7 @@
 	font-size:var(--font-14);
 	color:var(--white-color);
 	text-transform:uppercase;
-	background-color:var(--color-eleven);
+	background-color:var(--main-color);
 	font-family:var(--font-family-BeVietnam);
 }
 
