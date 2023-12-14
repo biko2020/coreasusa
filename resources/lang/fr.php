@@ -67,6 +67,12 @@ return [
   'specializing' => 'Spécialisée dans la manipulation',
 
 
+  // ---- Our Teams  -------//
+  'team' => 'Équipe',
+  'team-expert' => 'Membre de notre équipe',
+  'team-assist' => 'Nos experts vous assister',
+
+
 
 
   // ---- End  Home Page -------//

@@ -575,27 +575,33 @@
 							</h2>
 						</div>
 						<ul class="tab-btns tab-buttons clearfix">
-							<li data-tab="#prod-forklift" class="tab-btn active-btn"><?= $lang['equipment-forklift']; ?></li>
-							<li data-tab="#prod-lifting" class="tab-btn "><?= $lang['equipment-pallet-jack']; ?></li>
-							<li data-tab="#prod-architecture" class="tab-btn">Architecture</li>
-							<li data-tab="#prod-construction" class="tab-btn">Construction</li>
-							<li data-tab="#prod-interior" class="tab-btn">Interior Design</li>
-							<li data-tab="#prod-engineer" class="tab-btn">Engineer</li>
+							<li data-tab="#prod-forklift" class="tab-btn active-btn">
+								<?= $lang['equipment-forklift']; ?>
+							</li>
+							<li data-tab="#prod-lifting" class="tab-btn ">
+								<?= $lang['equipment-pallet-jack']; ?>
+							</li>
+							<li data-tab="#prod-battery" class="tab-btn ">
+								<?= $lang['equipment-battery']; ?> -
+								<?= $lang['equipment-tires']; ?>
+							</li>
 						</ul>
 					</div>
 
 					<!--Tabs Container-->
 					<div class="tabs-content">
 
-						<!-- Tab / Active Tab -->
+						<!-- Tab forklift/ Active Tab -->
 						<div class="tab active-tab" id="prod-forklift">
 							<div class="image">
 								<img src="/coreasusa/public/img/gallery/forklift.jpg" alt="" />
 								<div class="content">
 									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
-									<h5><a href="#"><?= $lang['equipment-forklift'] ?></a></h5>
+									<h5><a href="#">
+											<?= $lang['equipment-forklift']; ?>
+										</a></h5>
 									<div class="category">
-										<?= $lang['vente'] ?>
+										<?= $lang['vente']; ?>
 									</div>
 									<a class="arrow flaticon-right-arrow"
 										href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"></a>
@@ -603,73 +609,40 @@
 							</div>
 						</div>
 
-						<!-- Tab  -->
+						<!-- Tab pallet jack -->
 						<div class="tab" id="prod-lifting">
 							<div class="image">
 								<img src="/coreasusa/public/img/gallery/pallet-jack.jpg" alt="" />
 								<div class="content">
 									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
-									<h5><a href="#"><?= $lang['equipment-pallet-jack'] ?></a></h5>
+									<h5><a href="#">
+											<?= $lang['equipment-pallet-jack']; ?>
+										</a></h5>
 									<div class="category">
-										<?= $lang['vente'] ?>
+										<?= $lang['vente']; ?>
 									</div>
-									<a class="arrow flaticon-right-arrow"
-										href="/coreasusa/elevation?lang=<?= $lang['language']; ?>"></a>
+									<a class="arrow flaticon-right-arrow" href="/coreasusa/elevation?lang=<?= $lang['language']; ?>"></a>
 								</div>
 							</div>
 						</div>
 
-						<!-- Tab  -->
-						<div class="tab" id="prod-architecture">
+						<!-- Tab battery -->
+						<div class="tab" id="prod-battery">
 							<div class="image">
-								<img src="coreasusa/public/img/gallery/1.jpg" alt="" />
+								<img src="/coreasusa/public/img/gallery/battery.jpg" alt="" />
 								<div class="content">
 									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
-									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-									<div class="category">ALBERTA</div>
-									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
+									<h5><a href="#">
+											<?= $lang['equipment-battery']; ?>
+										</a></h5>
+									<div class="category">
+										<?= $lang['vente']; ?>
+									</div>
+									<a class="arrow flaticon-right-arrow" href="/coreasusa/divers?lang=<?= $lang['language']; ?>"></a>
 								</div>
 							</div>
 						</div>
 
-						<!-- Tab  -->
-						<div class="tab" id="prod-construction">
-							<div class="image">
-								<img src="/coreasusa/public/img/gallery/1.jpg" alt="" />
-								<div class="content">
-									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
-									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-									<div class="category">ALBERTA</div>
-									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-								</div>
-							</div>
-						</div>
-
-						<!-- Tab  -->
-						<div class="tab" id="prod-interior">
-							<div class="image">
-								<img src="/coreasusa/public/img/gallery/1.jpg" alt="" />
-								<div class="content">
-									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
-									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-									<div class="category">ALBERTA</div>
-									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-								</div>
-							</div>
-						</div>
-
-						<!-- Tab  -->
-						<div class="tab" id="prod-engineer">
-							<div class="image">
-								<img src="/coreasusa/public/img/gallery/1.jpg" alt="" />
-								<div class="content">
-									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
-									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
-									<div class="category">ALBERTA</div>
-									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
-								</div>
-							</div>
-						</div>
 
 					</div>
 				</div>
@@ -678,6 +651,137 @@
 		</section>
 		<!-- End Project specializing  -->
 
+
+		<!-- Team Section -->
+		<section class="team-section">
+			<div class="auto-container">
+				<div class="sec-title">
+					<div class="big-text"><?=$lang['team']?></div>
+					<div class="title"><?=$lang['team-expert']?></div>
+					<h2><?=$lang['team-assist']?></h2>
+				</div>
+				<div class="team-carousel owl-carousel owl-theme">
+
+					<!-- Team Block -->
+					<div class="team-block">
+						<div class="inner-box">
+							<div class="image">
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-1.png" alt="" /></a>
+								<div class="social-box">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+									<a href="#" class="fa fa-youtube"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<span class="gear-icon"></span>
+								<h5><a href="#">Youssef Boulal</a></h5>
+								<div class="designation">President</div>
+								<div class="middle-content">
+									<ul class="list">
+										<li><span class="icon flaticon-call-1"></span>+ (617)447-9325</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@Coreasusa.Com</li>
+									</ul>
+								</div>
+								<div class="btn-box text-center">
+									<a class="read-more" href="#"><?= $lang['read-more'] ?> <span class="flaticon-next-3"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Team Block -->
+					<div class="team-block">
+						<div class="inner-box">
+							<div class="image">
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-2.png" alt="" /></a>
+								<div class="social-box">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+									<a href="#" class="fa fa-youtube"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<span class="gear-icon"></span>
+								<h5><a href="#">Mohamed Khalfane</a></h5>
+								<div class="designation">Vice President</div>
+								<div class="middle-content">
+									<ul class="list">
+										<li><span class="icon flaticon-call-1"></span>+ (781)521-0234</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@Coreasusa.Com</li>
+									</ul>
+								</div>
+								<div class="btn-box text-center">
+									<a class="read-more" href="#"><?= $lang['read-more'] ?> <span class="flaticon-next-3"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Team Block -->
+					<div class="team-block">
+						<div class="inner-box">
+							<div class="image">
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-3.png" alt="" /></a>
+								<div class="social-box">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+									<a href="#" class="fa fa-youtube"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<span class="gear-icon"></span>
+								<h5><a href="#">Anne Johnson</a></h5>
+								<div class="designation">Secretary</div>
+								<div class="middle-content">
+									<ul class="list">
+										<li><span class="icon flaticon-call-1"></span>+ (781)521-0234</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@Coreasusa.Com</li>
+									</ul>
+								</div>
+								<div class="btn-box text-center">
+									<a class="read-more" href="#"><?= $lang['read-more'] ?> <span class="flaticon-next-3"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Team Block -->
+					<div class="team-block">
+						<div class="inner-box">
+							<div class="image">
+							<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-4.png" alt="" /></a>
+								<div class="social-box">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+									<a href="#" class="fa fa-youtube"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<span class="gear-icon"></span>
+								<h5><a href="team-detail.html">Ait Oufkir Brahim</a></h5>
+								<div class="designation">Web designer</div>
+								<div class="middle-content">
+									<ul class="list">
+										<li><span class="icon flaticon-call-1"></span>+212 063828405</li>
+										<li><span class="icon flaticon-mail"></span>aitoufkirbrahimab@gmail.com</li>
+									</ul>
+								</div>
+								<div class="btn-box text-center">
+									<a class="read-more" href="#"><?=$lang['read-more']?><span class="flaticon-next-3"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Team Section -->
 
 
 	</div>

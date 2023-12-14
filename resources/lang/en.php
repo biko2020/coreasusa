@@ -65,6 +65,14 @@ return [
      // ----  Project specializing -------//
      'specializing' => 'Specializing in handling',
 
+
+     // ---- Our Teams  -------//
+     'team' => 'Team',
+     'team-expert' => 'Expert team member',
+     'team-assist' => 'Our expert team will assist',
+
+
+
      // ---- End  Home Page -------//
 ];
 ?>
