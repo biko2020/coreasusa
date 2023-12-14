@@ -254,9 +254,15 @@
 						<div class="inner-column">
 							<div class="sec-title">
 								<div class="big-text">Coreasusa</div>
-								<div class="title"><?= $lang['about-company'] ?></div>
-								<h2><?= $lang['about-title'] ?></h2>
-								<div class="text"><?= $lang['about-text'] ?></div>
+								<div class="title">
+									<?= $lang['about-company'] ?>
+								</div>
+								<h2>
+									<?= $lang['about-title'] ?>
+								</h2>
+								<div class="text">
+									<?= $lang['about-text'] ?>
+								</div>
 							</div>
 							<div class="row clearfix">
 
@@ -264,7 +270,9 @@
 								<div class="feature-block col-lg-6 col-md-6 col-sm-12">
 									<div class="inner-box">
 										<span class="icon flaticon-factory"></span>
-										<h5><?= $lang['about-icon-1'] ?></h5>
+										<h5>
+											<?= $lang['about-icon-1'] ?>
+										</h5>
 									</div>
 								</div>
 
@@ -314,178 +322,363 @@
 		</section>
 		<!-- End About Section -->
 
-	<!-- Solution Section -->
-	<section class="service-section-two">
-		<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/1.jpg)"></div>
-		<div class="auto-container">
-			<div class="sec-title centered">
-				<div class="big-text">Solutions</div>
-				<div class="title"><?=$lang['solution-title']?></div>
-				<h2><?=$lang['solution-slogan']?></h2>
+		<!-- Solution Section -->
+		<section class="service-section-two">
+			<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/1.jpg)"></div>
+			<div class="auto-container">
+				<div class="sec-title centered">
+					<div class="big-text">Solutions</div>
+					<div class="title">
+						<?= $lang['solution-title'] ?>
+					</div>
+					<h2>
+						<?= $lang['solution-slogan'] ?>
+					</h2>
+				</div>
+				<div class="three-item-carousel owl-carousel owl-theme">
+
+					<!-- Solution Block One -->
+					<div class="service-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="/coreasusa/public/img/service-section/service-1.jpeg" alt="" />
+								<div class="overlay-box">
+									<span class="icon flaticon-factory"></span>
+									<div class="content">
+										<h5>
+											<?= $lang['vente'] ?>
+										</h5>
+										<div class="title">
+											<?= $lang['equipment-forklift'] ?>
+										</div>
+									</div>
+								</div>
+								<div class="overlay-box-two">
+									<span class="icon-two flaticon-factory"></span>
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<h5><a href="oil-gas.html">
+													<?= $lang['vente'] ?>
+												</a></h5>
+											<div class="text">
+												<?= $lang['solution-vente'] ?>
+											</div>
+											<a href="/coreasusa/vente?lang=<?= $lang['language']; ?>" class="read-more">
+												<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Solution Block Two -->
+					<div class="service-block-two style-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="/coreasusa/public/img/service-section/service-2.jpeg" alt="" />
+								<div class="overlay-box">
+									<span class="icon flaticon-factory"></span>
+									<div class="content">
+										<h5>
+											<?= $lang['location'] ?>
+										</h5>
+										<div class="title">
+											<?= $lang['equipment-lifting'] ?>
+										</div>
+									</div>
+								</div>
+								<div class="overlay-box-two">
+									<span class="icon-two flaticon-factory"></span>
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<h5><a href="oil-gas.html">
+													<?= $lang['location'] ?>
+												</a></h5>
+											<div class="text">
+												<?= $lang['solution-location'] ?>
+											</div>
+											<a href="/coreasusa/location?lang=<?= $lang['language']; ?>" class="read-more">
+												<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Solution Block Three -->
+					<div class="service-block-two style-three">
+						<div class="inner-box">
+							<div class="image">
+								<img src="/coreasusa/public/img/service-section/service-3.png" alt="" />
+								<div class="overlay-box">
+									<span class="icon flaticon-fluid-mechanics"></span>
+									<div class="content">
+										<h5>
+											<?= $lang['miseenservice'] ?>
+										</h5>
+										<div class="title">
+											<?= $lang['equipment-battery'] ?>
+										</div>
+									</div>
+								</div>
+								<div class="overlay-box-two">
+									<span class="icon-two flaticon-fluid-mechanics"></span>
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<h5><a href="oil-gas.html">
+													<?= $lang['miseenservice'] ?>
+												</a></h5>
+											<div class="text">
+												<?= $lang['solution-miseenservice']; ?>
+											</div>
+											<a href="/coreasusa/miseenservice?lang=<?= $lang['language']; ?>" class="read-more">
+												<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Soultion Block Four -->
+					<div class="service-block-two style-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="/coreasusa/public/img/service-section/service-4.jpeg" alt="" />
+								<div class="overlay-box">
+									<span class="icon flaticon-factory"></span>
+									<div class="content">
+										<h5>
+											<?= $lang['location'] ?>
+										</h5>
+										<div class="title">
+											<?= $lang['equipment-tires'] ?>
+										</div>
+									</div>
+								</div>
+								<div class="overlay-box-two">
+									<span class="icon-two flaticon-factory"></span>
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<h5><a href="oil-gas.html">
+													<?= $lang['location'] ?>
+												</a></h5>
+											<div class="text">
+												<?= $lang['solution-location'] ?>
+											</div>
+											<a href="/coreasusa/location?lang=<?= $lang['language']; ?>" class="read-more">
+												<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Solution Block Five -->
+					<div class="service-block-two style-three">
+						<div class="inner-box">
+							<div class="image">
+								<img src="/coreasusa/public/img/service-section/service-5.jpeg" alt="" />
+								<div class="overlay-box">
+									<span class="icon flaticon-fluid-mechanics"></span>
+									<div class="content">
+										<h5>
+											<?= $lang['miseenservice'] ?>
+										</h5>
+										<div class="title">
+											<?= $lang['equipment-various'] ?>
+										</div>
+									</div>
+								</div>
+								<div class="overlay-box-two">
+									<span class="icon-two flaticon-fluid-mechanics"></span>
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<h5><a href="oil-gas.html">
+													<?= $lang['miseenservice'] ?>
+												</a></h5>
+											<div class="text">
+												<?= $lang['solution-miseenservice']; ?>
+											</div>
+											<a href="/coreasusa/miseenservice?lang=<?= $lang['language']; ?>" class="read-more">
+												<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Solution Block Six -->
+					<div class="service-block-two style-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="/coreasusa/public/img/service-section/service-6.jpeg" alt="" />
+								<div class="overlay-box">
+									<span class="icon flaticon-factory"></span>
+									<div class="content">
+										<h5>
+											<?= $lang['location'] ?>
+										</h5>
+										<div class="title">
+											<?= $lang['equipment-pallet-jack'] ?>
+										</div>
+									</div>
+								</div>
+								<div class="overlay-box-two">
+									<span class="icon-two flaticon-factory"></span>
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<h5><a href="oil-gas.html">
+													<?= $lang['location'] ?>
+												</a></h5>
+											<div class="text">
+												<?= $lang['solution-location'] ?>
+											</div>
+											<a href="/coreasusa/location?lang=<?= $lang['language']; ?>" class="read-more">
+												<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</div>
-			<div class="three-item-carousel owl-carousel owl-theme">
-			
-				<!-- Solution Block One -->
-				<div class="service-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="/coreasusa/public/img/service-section/service-1.jpeg" alt="" />
-							<div class="overlay-box">
-								<span class="icon flaticon-factory"></span>
+		</section>
+		<!-- End Service Section -->
+
+		<!-- Project specializing -->
+		<section class="project-section">
+			<div class="auto-container">
+
+				<!--Product Tabs-->
+				<div class="prod-tabs tabs-box">
+					<div class="gear-pattern-layer" style="background-image:url(/coreasusa/public/img/background/pattern-4.png)">
+					</div>
+					<!-- Tab Btns -->
+					<div class="btns-outer">
+						<div class="btns-pattern-layer" style="background-image:url(/coreasusa/public/img/background/2.jpg)"></div>
+						<div class="title-box">
+							<h2>
+								<?= $lang['specializing']; ?>
+							</h2>
+						</div>
+						<ul class="tab-btns tab-buttons clearfix">
+							<li data-tab="#prod-forklift" class="tab-btn active-btn"><?= $lang['equipment-forklift']; ?></li>
+							<li data-tab="#prod-lifting" class="tab-btn "><?= $lang['equipment-pallet-jack']; ?></li>
+							<li data-tab="#prod-architecture" class="tab-btn">Architecture</li>
+							<li data-tab="#prod-construction" class="tab-btn">Construction</li>
+							<li data-tab="#prod-interior" class="tab-btn">Interior Design</li>
+							<li data-tab="#prod-engineer" class="tab-btn">Engineer</li>
+						</ul>
+					</div>
+
+					<!--Tabs Container-->
+					<div class="tabs-content">
+
+						<!-- Tab / Active Tab -->
+						<div class="tab active-tab" id="prod-forklift">
+							<div class="image">
+								<img src="/coreasusa/public/img/gallery/forklift.jpg" alt="" />
 								<div class="content">
-									<h5><?=$lang['vente']?></h5>
-									<div class="title"><?=$lang['solutions']?></div>
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two flaticon-factory"></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html"><?=$lang['vente']?></a></h5>
-										<div class="text"><?=$lang['solution-vente']?></div>
-										<a href="/coreasusa/vente?lang=<?= $lang['language']; ?>" class="read-more"><?=$lang['read-more']?><span class="flaticon-next-3"></span></a>
+									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
+									<h5><a href="#"><?= $lang['equipment-forklift'] ?></a></h5>
+									<div class="category">
+										<?= $lang['vente'] ?>
 									</div>
+									<a class="arrow flaticon-right-arrow"
+										href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"></a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<!-- Solution Block Two -->
-				<div class="service-block-two style-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="/coreasusa/public/img/service-section/service-2.jpeg" alt="" />
-							<div class="overlay-box">
-								<span class="icon flaticon-factory"></span>
+
+						<!-- Tab  -->
+						<div class="tab" id="prod-lifting">
+							<div class="image">
+								<img src="/coreasusa/public/img/gallery/pallet-jack.jpg" alt="" />
 								<div class="content">
-									<h5><?=$lang['location']?></h5>
-									<div class="title"><?=$lang['solutions']?></div>
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two flaticon-factory"></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html"><?=$lang['location']?></a></h5>
-										<div class="text"><?=$lang['solution-location']?></div>
-										<a href="/coreasusa/location?lang=<?= $lang['language']; ?>"  class="read-more"><?=$lang['read-more']?><span class="flaticon-next-3"></span></a>
+									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
+									<h5><a href="#"><?= $lang['equipment-pallet-jack'] ?></a></h5>
+									<div class="category">
+										<?= $lang['vente'] ?>
 									</div>
+									<a class="arrow flaticon-right-arrow"
+										href="/coreasusa/elevation?lang=<?= $lang['language']; ?>"></a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<!-- Solution Block Three -->
-				<div class="service-block-two style-three">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/service-3.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon flaticon-water-control"></span>
+
+						<!-- Tab  -->
+						<div class="tab" id="prod-architecture">
+							<div class="image">
+								<img src="coreasusa/public/img/gallery/1.jpg" alt="" />
 								<div class="content">
-									<h5>Engineering</h5>
-									<div class="title">Services</div>
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two flaticon-water-control"></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Plumbing</a></h5>
-										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
+									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
+									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
+									<div class="category">ALBERTA</div>
+									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<!-- Soultion Block Four -->
-				<div class="service-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/service-1.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon flaticon-drop-of-liquid"></span>
+
+						<!-- Tab  -->
+						<div class="tab" id="prod-construction">
+							<div class="image">
+								<img src="/coreasusa/public/img/gallery/1.jpg" alt="" />
 								<div class="content">
-									<h5>Engineering</h5>
-									<div class="title">Services</div>
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two flaticon-drop-of-liquid"></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Eco & Bio Power Services</a></h5>
-										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
+									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
+									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
+									<div class="category">ALBERTA</div>
+									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<!-- Solution Block Five -->
-				<div class="service-block-two style-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/service-2.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon flaticon-factory"></span>
+
+						<!-- Tab  -->
+						<div class="tab" id="prod-interior">
+							<div class="image">
+								<img src="/coreasusa/public/img/gallery/1.jpg" alt="" />
 								<div class="content">
-									<h5>Engineering</h5>
-									<div class="title">Services</div>
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two flaticon-factory"></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Engineering</a></h5>
-										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
+									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
+									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
+									<div class="category">ALBERTA</div>
+									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<!-- Solution Block Six -->
-				<div class="service-block-two style-three">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/resource/service-3.jpg" alt="" />
-							<div class="overlay-box">
-								<span class="icon flaticon-water-control"></span>
+
+						<!-- Tab  -->
+						<div class="tab" id="prod-engineer">
+							<div class="image">
+								<img src="/coreasusa/public/img/gallery/1.jpg" alt="" />
 								<div class="content">
-									<h5>Engineering</h5>
-									<div class="title">Services</div>
-								</div>
-							</div>
-							<div class="overlay-box-two">
-								<span class="icon-two flaticon-water-control"></span>
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<h5><a href="oil-gas.html">Plumbing</a></h5>
-										<div class="text">The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during predomic.</div>
-										<a href="oil-gas.html" class="read-more">Read more <span class="flaticon-next-3"></span></a>
-									</div>
+									<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/3.jpg)"></div>
+									<h5><a href="project-detail.html">City of Calgary LRT Station Refurbishments</a></h5>
+									<div class="category">ALBERTA</div>
+									<a class="arrow flaticon-right-arrow" href="project-detail.html"></a>
 								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
-				
+
 			</div>
-		</div>
-	</section>
-	<!-- End Service Section -->
-		
+		</section>
+		<!-- End Project specializing  -->
+
+
 
 	</div>
 	<!-- End page-wrapper -->
