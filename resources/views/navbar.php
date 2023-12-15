@@ -80,7 +80,8 @@
           <div class="clearfix">
 
             <div class="pull-left logo-box">
-              <div class="logo"><a href="index.php"><img src="/coreasusa/public/img/logo.png" alt="" title="logo"></a>
+              <div class="logo"><a href="/coreasusa/?lang=<?= $lang['language'] ?>"><img
+                    src="/coreasusa/public/img/logo.png" alt="" title="logo"></a>
               </div>
             </div>
 
@@ -218,8 +219,7 @@
         <div class="auto-container clearfix">
           <!--Logo-->
           <div class="logo pull-left">
-            <a href="/coreasusa/?lang=<?= $lang['language']; ?>">
-              <?= $lang['apropos']; ?>
+            <a href="/coreasusa/?lang=<?= $lang['language'] ?>">
               <img src="/coreasusa/public/img/logo-small.png" alt="" title="">
             </a>
           </div>
@@ -244,8 +244,8 @@
         <div class="close-btn"><span class="icon fa fa-close"></span></div>
 
         <nav class="menu-box">
-          <div class="nav-logo"><a href="/coreasusa/?lang=<?= $lang['language']; ?>">
-              <?= $lang['apropos']; ?>
+          <div class="nav-logo"><a href="/coreasusa/?lang=<?= $lang['language'] ?>">
+
               <img src="/coreasusa/public/img/logo.png" alt="" title="">
             </a>
           </div>

@@ -71,8 +71,16 @@ return [
      'team-expert' => 'Expert team member',
      'team-assist' => 'Our expert team will assist',
 
-
-
      // ---- End  Home Page -------//
+
+     // ----  Footer Page -------//
+     'describ' => 'We only offer our customers the highest quality products available on the market - and for the best prices.',
+     'newsletter' => 'Newsletter',
+     'news-text' => 'Subscribe our newsletter to get our latest équipments news.',
+     'email-text' => 'Your mail address',
+     'address-info' => 'Official Info:',
+     'media' => 'social Media',
+
+     // ----  End Footer  -------//
 ];
 ?>

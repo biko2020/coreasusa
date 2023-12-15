@@ -72,10 +72,18 @@ return [
   'team-expert' => 'Membre de notre équipe',
   'team-assist' => 'Nos experts vous assister',
 
-
-
-
   // ---- End  Home Page -------//
+
+  // ----  Footer Page -------//
+  'describ' => 'Nous proposons exclusivement à nos clients des produits de la plus haute qualité disponibles sur le marché.',
+  'newsletter' => 'Nouveautés',
+  'news-text' => 'Inscrivez-vous dans notre newsletter a fin d\'avoir les nouveautés sur notre matériels.',
+  'email-text' => 'Votre adresse e-mail',
+  'address-info' => 'Info:',
+  'media' => 'Résaux Sociaux',
+  // ----  End Footer  -------//
+
+
 ];
 
 

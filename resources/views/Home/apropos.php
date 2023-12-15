@@ -656,9 +656,15 @@
 		<section class="team-section">
 			<div class="auto-container">
 				<div class="sec-title">
-					<div class="big-text"><?=$lang['team']?></div>
-					<div class="title"><?=$lang['team-expert']?></div>
-					<h2><?=$lang['team-assist']?></h2>
+					<div class="big-text">
+						<?= $lang['team'] ?>
+					</div>
+					<div class="title">
+						<?= $lang['team-expert'] ?>
+					</div>
+					<h2>
+						<?= $lang['team-assist'] ?>
+					</h2>
 				</div>
 				<div class="team-carousel owl-carousel owl-theme">
 
@@ -685,7 +691,9 @@
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#"><?= $lang['read-more'] ?> <span class="flaticon-next-3"></span></a>
+									<a class="read-more" href="#">
+										<?= $lang['read-more'] ?> <span class="flaticon-next-3"></span>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -714,7 +722,9 @@
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#"><?= $lang['read-more'] ?> <span class="flaticon-next-3"></span></a>
+									<a class="read-more" href="#">
+										<?= $lang['read-more'] ?> <span class="flaticon-next-3"></span>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -743,7 +753,9 @@
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#"><?= $lang['read-more'] ?> <span class="flaticon-next-3"></span></a>
+									<a class="read-more" href="#">
+										<?= $lang['read-more'] ?> <span class="flaticon-next-3"></span>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -753,7 +765,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-							<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-4.png" alt="" /></a>
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-4.png" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -772,7 +784,9 @@
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#"><?=$lang['read-more']?><span class="flaticon-next-3"></span></a>
+									<a class="read-more" href="#">
+										<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -782,11 +796,13 @@
 			</div>
 		</section>
 		<!-- End Team Section -->
-
-
 	</div>
 	<!-- End page-wrapper -->
 
+	<?php
+	// Include footer.php
+	include __DIR__ . '/../footer.php';
+	?>
 
 
 	<script src="/coreasusa/public/js/jquery.js"></script>
