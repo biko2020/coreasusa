@@ -14,7 +14,7 @@ return [
      'manutention' => 'Handling',
      'elevation' => 'Lifting',
      'traction' => 'Traction',
-     'divers' => 'Various',
+     'divers' => 'Other Equipments',
 
      'services' => 'SERVICES',
      // ---- Sub Menu -------//
@@ -83,16 +83,23 @@ return [
 
      // ----  End Footer  -------//
 
-    // ----  Contact Page -------//
-    'contact-info'=> 'Proximity to Your Office.',
-    'contact-office'=> 'Office Address',
-    'contact-office-address'=> 'Come by our place at',
-    'contact-email'=> 'Email Address ',
-    'contact-email-text'=> 'Send an email at any time.
+     // ----  Contact Page -------//
+     'contact-info' => 'Proximity to Your Office.',
+     'contact-office' => 'Office Address',
+     'contact-office-address' => 'Come by our place at',
+     'contact-email' => 'Email Address ',
+     'contact-email-text' => 'Send an email at any time.
     ',
-    // ----  End Page -------//
+     // ----  End Contact -------//
 
 
+     // ----  Vente Page -------//
+     'vente-back-text' => 'Products',
+     'vente-products'=>'Products on sale',
+     'vente-title'=>'We offer the highest quality equipment.',
+
+
+     // ----  End Vente -------//
 
 ];
 ?>

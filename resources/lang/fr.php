@@ -14,7 +14,7 @@ return [
   'manutention' => 'Manutention',
   'elevation' => 'Elévation',
   'traction' => 'Traction',
-  'divers' => 'Divers',
+  'divers' => 'Autres Équipements',
 
   'services' => 'SERVICES',
   // ---- Sub Menu -------//
@@ -91,11 +91,20 @@ return [
   'contact-office' => 'Adresse bureau',
   'contact-office-address' => 'Venez chez nous à
     ',
-'contact-email'  => 'Adresse e-mail',
-'contact-email-text'=> 'Envoyez un e-mail.
+  'contact-email' => 'Adresse e-mail',
+  'contact-email-text' => 'Envoyez un e-mail.
 ',
 
   // ----  End Contact -------//
+
+
+  // ----  Vente Page -------//
+  'vente-back-text' => 'Produits',
+  'vente-products' => 'Produits en vente',
+  'vente-title' => 'Nous offrons des équipements de la plus haute qualité.',
+
+  // ----  End Vente -------//
+
 
 ];
 

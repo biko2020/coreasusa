@@ -113,14 +113,26 @@
 		</section>
 		<!-- End Location Section -->
 
-
-
-
+	<!-- Map Column -->
+	<section class="map-section">
+		<div class="auto-container">
+			<div class="inner-container">
+				<!-- Map Outer -->
+				<div class="map-outer">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3321.129741357537!2d-7.442291999999999!3d33.6538!3m2!1i1024!2i768!4f13.1!2m1!1s240%2C%20Zone%20Industriel%20zenata%20smart%20city%20grand%20Casablanca!5e0!3m2!1sen!2sus!4v1702744374475!5m2!1sen!2sus" allowfullscreen=""></iframe>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Map Column -->
 
 	</div>
 	<!-- End page-wrapper -->
 
-
+	<?php
+	// Include footer.php
+	include __DIR__ . '/../footer.php';
+	?>
 
 	<script src="/coreasusa/public/js/jquery.js"></script>
 	<script src="/coreasusa/public/js/popper.min.js"></script>
