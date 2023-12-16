@@ -8587,7 +8587,11 @@
 	right:0px;
 	bottom:0px;
 	opacity:0.70;
-	background: var(--color-fourty);
+
+	background: var(--main-color);
+	background: -webkit-linear-gradient(to right, var(--main-color) 0%, rgba(255,255,255,0) 100%);
+	background: -moz-linear-gradient(to right, var(--main-color) 0%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, var(--main-color) 0%, rgba(255,255,255,0) 100%);
 }
 
 .page-title h2{
@@ -11546,7 +11550,7 @@
 	border-radius:5px;
 	line-height:1.8em;
 	font-size:var(--font-16);
-	color:var(--color-sixty);
+	color:var(--black-color);
 	background-color:var(--white-color);
 	box-shadow:0px 0px 15px rgba(0,0,0,0.10);
 }

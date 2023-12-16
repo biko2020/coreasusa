@@ -48,7 +48,7 @@
 
                     <!-- Email Box -->
                     <div class="email-box">
-                      <form method="post" action="contact.html">
+                      <form method="post" action="/coreasusa/contact?lang=<?= $lang['language']; ?>">
                         <div class="form-group">
                           <input type="email" name="search-field" value="" placeholder="<?= $lang['email-text'] ?>"
                             required>
@@ -130,7 +130,7 @@
         </div>
 
         <div class="footer-bottom">
-          <div class="copyright">&copy; 2024 Coreasusa - All rights reserved. <a href="#">Coreasusa</a></div>
+          <div class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Coreasusa - All rights reserved. <a href="#">Coreasusa</a></div>
         </div>
 
       </div>

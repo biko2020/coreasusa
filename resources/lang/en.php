@@ -69,18 +69,30 @@ return [
      // ---- Our Teams  -------//
      'team' => 'Team',
      'team-expert' => 'Expert team member',
-     'team-assist' => 'Our expert team will assist',
+     'team-assist' => 'Our proficient team will provide assistance.',
 
      // ---- End  Home Page -------//
 
      // ----  Footer Page -------//
      'describ' => 'We only offer our customers the highest quality products available on the market - and for the best prices.',
      'newsletter' => 'Newsletter',
-     'news-text' => 'Subscribe our newsletter to get our latest équipments news.',
+     'news-text' => 'Subscribe to our newsletter to receive the latest updates on our equipment news.',
      'email-text' => 'Your mail address',
-     'address-info' => 'Official Info:',
-     'media' => 'social Media',
+     'address-info' => 'Information:',
+     'media' => 'Social Media',
 
      // ----  End Footer  -------//
+
+    // ----  Contact Page -------//
+    'contact-info'=> 'Proximity to Your Office.',
+    'contact-office'=> 'Office Address',
+    'contact-office-address'=> 'Come by our place at',
+    'contact-email'=> 'Email Address ',
+    'contact-email-text'=> 'Send an email at any time.
+    ',
+    // ----  End Page -------//
+
+
+
 ];
 ?>

@@ -69,20 +69,33 @@ return [
 
   // ---- Our Teams  -------//
   'team' => 'Équipe',
-  'team-expert' => 'Membre de notre équipe',
-  'team-assist' => 'Nos experts vous assister',
+  'team-expert' => 'Membres de notre équipe',
+  'team-assist' => 'Nos experts seront à votre service.',
 
   // ---- End  Home Page -------//
 
   // ----  Footer Page -------//
   'describ' => 'Nous proposons exclusivement à nos clients des produits de la plus haute qualité disponibles sur le marché.',
   'newsletter' => 'Nouveautés',
-  'news-text' => 'Inscrivez-vous dans notre newsletter a fin d\'avoir les nouveautés sur notre matériels.',
+  'news-text' => 'Abonnez-vous à notre newsletter pour recevoir nos dernières nouveautés en matière d\'équipements.
+  ',
   'email-text' => 'Votre adresse e-mail',
-  'address-info' => 'Info:',
-  'media' => 'Résaux Sociaux',
+  'address-info' => 'Informations:',
+  'media' => 'Réseaux Sociaux
+  ',
   // ----  End Footer  -------//
 
+
+  // ----  Contact Page -------//
+  'contact-info' => 'Proximité de votre bureau.',
+  'contact-office' => 'Adresse bureau',
+  'contact-office-address' => 'Venez chez nous à
+    ',
+'contact-email'  => 'Adresse e-mail',
+'contact-email-text'=> 'Envoyez un e-mail.
+',
+
+  // ----  End Contact -------//
 
 ];
 

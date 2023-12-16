@@ -776,7 +776,7 @@
 							<div class="lower-content">
 								<span class="gear-icon"></span>
 								<h5><a href="team-detail.html">Ait Oufkir Brahim</a></h5>
-								<div class="designation">Web designer</div>
+								<div class="designation">Commercial</div>
 								<div class="middle-content">
 									<ul class="list">
 										<li><span class="icon flaticon-call-1"></span>+212 063828405</li>

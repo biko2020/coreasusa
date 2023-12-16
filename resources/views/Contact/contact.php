@@ -18,7 +18,7 @@
 
 
 		<!-- Vertical Lines Start -->
-		<div class="vertical-lines-wrapper">
+		<!-- <div class="vertical-lines-wrapper">
 			<div class="vertical-lines">
 				<div class="vertical-effect"></div>
 				<div class="vertical-effect"></div>
@@ -27,7 +27,7 @@
 				<div class="vertical-effect"></div>
 				<div class="vertical-effect"></div>
 			</div>
-		</div>
+		</div> -->
 		<!-- End Vertical Lines Start -->
 
 		<!-- scrollToTop start -->
@@ -40,9 +40,82 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1>
-			<?= $lang['contact'] ?>
-		</h1>
+
+		<!-- Page Title -->
+		<section class="page-title" style="background-image: url(/coreasusa/public/img/background/9.jpg)">
+			<div class="auto-container">
+
+				<h2>
+					<?= $lang['contact'] ?>
+				</h2>
+			</div>
+		</section>
+		<!-- End Page Title -->
+
+
+		<!-- Contact Page Section -->
+		<section class="contact-page-section">
+			<div class="auto-container">
+				<!-- Sec Title Three -->
+				<div class="sec-title-three centered">
+					<h2><?= $lang['contact-info'] ?></h2>
+				</div>
+
+				<div class="row clearfix">
+
+					<!-- Location Block -->
+					<div class="location-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="content">
+								<span class="icon flaticon-message"></span>
+								<strong><?=$lang['contact-email']?></strong>
+								<?=$lang['contact-email-text']?>
+							</div>
+							Jboulal@coreasusa.com<br>
+							Contact@coreasusa.com
+							
+						</div>
+					</div>
+
+					<!-- Location Block -->
+					<div class="location-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="content">
+								<span class="icon flaticon-call"></span>
+								<strong>
+									<?= $lang['call'] ?>
+								</strong>
+								call us asap anytime
+							</div>
+							+ (781)521-0234<br>
+							+ (617)447-9325
+
+						</div>
+					</div>
+
+					<!-- Location Block -->
+					<div class="location-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="content">
+								<span class="icon flaticon-home"></span>
+								<strong><?= $lang['contact-office'] ?></strong>
+								<?= $lang['contact-office-address'] ?>
+							</div>
+							240 Zone Industrielle Zenata
+							<br>
+							Casablanca
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- End Location Section -->
+
+
+
+
 
 	</div>
 	<!-- End page-wrapper -->
