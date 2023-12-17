@@ -58,9 +58,15 @@
 		<section class="products-section">
 			<div class="auto-container">
 				<div class="sec-title centered">
-					<div class="big-text"><?= $lang['vente-back-text'] ?></div>
-					<div class="title"><?= $lang['vente-products'] ?></div>
-					<h2><?= $lang['vente-title'] ?></h2>
+					<div class="big-text">
+						<?= $lang['vente-back-text'] ?>
+					</div>
+					<div class="title">
+						<?= $lang['vente-products'] ?>
+					</div>
+					<h2>
+						<?= $lang['vente-title'] ?>
+					</h2>
 				</div>
 			</div>
 		</section>
@@ -73,48 +79,87 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="about.html#"><img src="/coreasusa/public/img/products/pv-1.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/pv-01.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="oil-gas.html">Electric Forkilft</a></h4>
+								<h4><a href="#">Electric Forkilft</a></h4>
 								<div class="text">Max.Load Capacity: 3T<br>
 									Max.Left Height: 3m <br>
-									Operation Mode: Seated</div>
+									Operation Mode: Seated
+								</div>
+								<div class="img-poids">
+									<img src="/coreasusa/public/img/products/poids.svg" alt="">
+								</div>
+								<p class="mb-0">4500 kg</p>
+
 								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
-
-					<!-- Approach Block -->
+					<!--  Block 1 -->
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="about.html#"><img src="/coreasusa/public/img/products/pv-2.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/pv-02.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="oil-gas.html">Our Mission</a></h4>
-								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua.</div>
-								<a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a>
+								<h4><a href="#">Semi-electric Stacker</a></h4>
+								<div class="text">MMax.Load Capacity: 2T <br>
+									Max.Lift Height: 3500 mm <br>
+									Operation Mode: Hand-push
+								</div>
+								<div class="img-poids">
+									<img src="/coreasusa/public/img/products/poids.svg" alt="">
+								</div>
+								<p class="mb-0">1500 kg</p>
+
+								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
-
-					<!-- Approach Block -->
+					<!--  Block 2 -->
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="about.html#"><img src="/coreasusa/public/img/products/pv-3.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/pv-03.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="oil-gas.html">Our Value</a></h4>
-								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua.</div>
-								<a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a>
+								<h4><a href="#">Diesel Forkilft</a></h4>
+								<div class="text">Max.Load Capacity: 1.5T<br>
+									Max.Left Height: 3m <br>
+									Operation Mode: Seated
+								</div>
+								<div class="img-poids">
+									<img src="/coreasusa/public/img/products/poids.svg" alt="">
+								</div>
+								<p class="mb-0">4500 kg</p>
+
+								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
+					<!--  Block 3 -->
+					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="image">
+								<a href="#"><img src="/coreasusa/public/img/products/pv-04.jpg" alt="" /></a>
+							</div>
+							<div class="lower-content">
+								<h4><a href="#">HWCY-50 ALL-terrain forklift</a></h4>
+								<div class="text">Power:88Kw <br>
+									Tire: 12-16.5 vacuum off-road<br>
+									Lift height: 3m
+								</div>
+								<div class="img-poids">
+									<img src="/coreasusa/public/img/products/poids.svg" alt="">
+								</div>
+								<p class="mb-0">5500 kg</p>
 
+								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+							</div>
+						</div>
+					</div>
+					<!--  Block 4 -->
 				</div>
 			</div>
 		</section>
