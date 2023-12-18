@@ -94,12 +94,17 @@ return [
 
 
      // ----  Vente Page -------//
-     'vente-back-text' => 'Products',
-     'vente-products'=>'Products on sale',
+     'vente-back-text' => 'Sale',
+     'vente-products'=>'Products for sale',
      'vente-title'=>'We offer the highest quality equipment.',
-
-
      // ----  End Vente -------//
+
+
+     // ----  Location Page -------//
+     'location-back-text' => 'Rent',
+     'location-products'=>'Products for rent',
+     'location-title'=>'We offer handling equipment for rent.',
+     // ----  End Location -------//
 
 ];
 ?>

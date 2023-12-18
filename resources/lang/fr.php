@@ -99,11 +99,18 @@ return [
 
 
   // ----  Vente Page -------//
-  'vente-back-text' => 'Produits',
+  'vente-back-text' => 'Vente',
   'vente-products' => 'Produits en vente',
   'vente-title' => 'Nous offrons des équipements de la plus haute qualité.',
 
   // ----  End Vente -------//
+
+    // ----  Location Page -------//
+    'location-back-text' => 'Location',
+    'location-products' => 'Produits en location',
+    'location-title' => 'Nous proposons des équipements de manutention à la location.',
+  
+    // ----  End Location -------//
 
 
 ];
