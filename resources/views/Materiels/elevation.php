@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$lang['elevation']?></title>
+	<title>
+		<?= $lang['elevation'] ?>
+	</title>
 
 
 </head>
@@ -39,10 +41,238 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1><?=$lang['elevation']?> </h1>
+
+		<!-- Page Title -->
+		<section class="page-title" style="background-image: url(/coreasusa/public/img/background/s-1.jpg)">
+			<div class="auto-container">
+
+				<h2>
+					<?= $lang['elevation'] ?>
+				</h2>
+			</div>
+		</section>
+		<!-- End Page Title -->
+
+
+		<!-- Products block One -->
+		<section class="products-section">
+			<div class="auto-container">
+				<div class="sec-title centered">
+					<div class="big-text">
+						<?= $lang['levage-back-text']; ?>
+					</div>
+					<div class="title">
+						<?= $lang['levage-products']; ?>
+					</div>
+					<h2>
+						<?= $lang['levage-title']; ?>
+					</h2>
+				</div>
+				<div class="products-carousel owl-carousel owl-theme">
+
+					<!-- Product 1 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/1.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"> Electric Articulated Boom Lift</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 2 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/2.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"> IMER Articulated Boom Lift Battery Operated</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 3 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/3.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">DBA-20 Daedalus Boom Lifts</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 4 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/4.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">78 Feet Articulating Boom Lift Diesel</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Products block Two -->
+				<div class="products-carousel owl-carousel owl-theme">
+					<!-- Product 5 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/5.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">Articulated Boom Lifts</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 6 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/6.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"> IMER Articulated Boom Lift Battery Operated</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 7 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/7.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">DBA-20 Daedalus Boom Lifts</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 4 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/levage/4.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">78 Feet Articulating Boom Lift Diesel</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price"></div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+
 
 	</div>
 	<!-- End page-wrapper -->
+
+	<?php
+	// include footer.page
+	include __DIR__ . '/../footer.php';
+	?>
+
 
 
 

@@ -166,9 +166,6 @@
                         <?= $lang['materiels']; ?>
                       </a>
                       <ul>
-                        <li><a href="/coreasusa/manutention?lang=<?= $lang['language']; ?>">
-                            <?= $lang['manutention']; ?>
-                          </a></li>
                         <li><a href="/coreasusa/elevation?lang=<?= $lang['language']; ?>">
                             <?= $lang['elevation']; ?>
                           </a></li>

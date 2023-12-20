@@ -11,8 +11,7 @@ return [
 
   'materiels' => 'MATÉRIELS',
   // ---- Sub Menu -------//
-  'manutention' => 'Manutention',
-  'elevation' => 'Elévation',
+  'elevation' => 'Levage',
   'traction' => 'Traction',
   'divers' => 'Autres Équipements',
 
@@ -105,13 +104,20 @@ return [
 
   // ----  End Vente -------//
 
-    // ----  Location Page -------//
-    'location-back-text' => 'Location',
-    'location-products' => 'Produits en location',
-    'location-title' => 'Nous proposons des équipements de manutention à la location.',
-  
-    // ----  End Location -------//
+  // ----  Location Page -------//
+  'location-back-text' => 'Location',
+  'location-products' => 'Produits en location',
+  'location-title' => 'Nous proposons des équipements de manutention à la location.',
 
+  // ----  End Location -------//
+
+
+  // ----  levage Page -------//
+  'levage-back-text' => 'Levage',
+  'levage-products' => 'Équipements de levage',
+  'levage-title' => 'Notre pack d\'équipements de levage.',
+
+  // ----  End levage -------//
 
 ];
 

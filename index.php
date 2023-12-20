@@ -40,7 +40,6 @@ try {
   $router->addRoute('/coreasusa/location','LocationController');
   $router->addRoute('/coreasusa/divers','DiversController');
   $router->addRoute('/coreasusa/elevation','ElevationController');
-  $router->addRoute('/coreasusa/manutention','ManutentionController');
   $router->addRoute('/coreasusa/traction','TractionController');
   $router->addRoute('/coreasusa/maintenance','MaintenanceController');
   $router->addRoute('/coreasusa/miseenservice','MiseenserviceController');

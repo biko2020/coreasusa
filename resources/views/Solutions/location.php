@@ -92,7 +92,7 @@
 								</div>
 								<p class="mb-0">4500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -113,7 +113,7 @@
 								</div>
 								<p class="mb-0">1500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 								</div>
 								<p class="mb-0">4500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -155,7 +155,7 @@
 								</div>
 								<p class="mb-0">5500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -176,7 +176,7 @@
 								</div>
 								<p class="mb-0">1200 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -194,7 +194,7 @@
 								</div>
 
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -216,7 +216,7 @@
 								</div>
 								<p class="mb-0">4500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -237,7 +237,7 @@
 								</div>
 								<p class="mb-0">5500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -258,7 +258,7 @@
 								</div>
 								<p class="mb-0">1500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -276,7 +276,7 @@
 								</div>
 
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -298,7 +298,7 @@
 								</div>
 								<p class="mb-0">1200 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
@@ -319,7 +319,7 @@
 								</div>
 								<p class="mb-0">4500 kg</p>
 
-								<!-- <a class="explore" href="oil-gas.html">Explore More <span class="fa fa-plus"></span></a> -->
+								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>

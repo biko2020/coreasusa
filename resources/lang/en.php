@@ -11,7 +11,6 @@ return [
 
      'materiels' => 'EQUIPMENTS',
      // ---- Sub Menu -------//
-     'manutention' => 'Handling',
      'elevation' => 'Lifting',
      'traction' => 'Traction',
      'divers' => 'Other Equipments',
@@ -105,6 +104,15 @@ return [
      'location-products'=>'Products for rent',
      'location-title'=>'We offer handling equipment for rent.',
      // ----  End Location -------//
+
+
+    // ----  levage Page -------//
+    'levage-back-text' => 'Lifting',
+    'levage-products' => 'Lifting equipment',
+    'levage-title' => 'Our lifting equipment package.',
+  
+    // ----  End levage -------//
+
 
 ];
 ?>
