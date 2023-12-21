@@ -3589,14 +3589,15 @@
 
 .product-block .inner-box .price {
   position: relative;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: var(--font-16);
-  color: var(--black-color);
+  color: var(--color-sixteen);
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
+  text-align: left;
 }
 
 .product-block .inner-box .price span {

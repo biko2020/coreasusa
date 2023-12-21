@@ -467,11 +467,11 @@
 						</div>
 					</div>
 
-					<!-- Soultion Block Four -->
+					<!-- Soultion Block Tires -->
 					<div class="service-block-two style-two">
 						<div class="inner-box">
 							<div class="image">
-								<img src="/coreasusa/public/img/service-section/service-4.jpeg" alt="" />
+								<img src="/coreasusa/public/img/service-section/service-4.png" alt="" />
 								<div class="overlay-box">
 									<span class="icon flaticon-factory"></span>
 									<div class="content">
