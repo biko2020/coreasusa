@@ -79,18 +79,18 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-01.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-01.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
 								<h4><a href="#">Electric Forkilft</a></h4>
-								<div class="text">Max.Load Capacity: 3T<br>
-									Max.Left Height: 3m <br>
-									Operation Mode: Seated
+								<div class="text">Manufacturer: Hyster<br>
+									Lift height: 84/189<br>
+									Hours: 7254
 								</div>
 								<div class="img-poids">
 									<img src="/coreasusa/public/img/products/poids.svg" alt="">
 								</div>
-								<p class="mb-0">4500 kg</p>
+								<p class="mb-0">5000 kg</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -121,18 +121,18 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-03.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-03.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Diesel Forkilft</a></h4>
-								<div class="text">Max.Load Capacity: 1.5T<br>
-									Max.Left Height: 3m <br>
-									Operation Mode: Seated
+								<h4><a href="#">Electric Forkilft</a></h4>
+								<div class="text">Manufacturer: Hyster<br>
+									Lift height: 84/189<br>
+									Hours: 7254
 								</div>
 								<div class="img-poids">
 									<img src="/coreasusa/public/img/products/poids.svg" alt="">
 								</div>
-								<p class="mb-0">4500 kg</p>
+								<p class="mb-0">5000 kg</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -142,18 +142,18 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-04.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-04.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">HWCY-50 ALL-terrain</a></h4>
-								<div class="text">Power:88Kw <br>
-									Tire: 12-16.5 vacuum off-road<br>
-									Lift height: 3m
+								<h4><a href="#">Electric Forkilft</a></h4>
+								<div class="text">Manufacturer: Hyster<br>
+									Lift height: 84/189<br>
+									Hours: 7254
 								</div>
 								<div class="img-poids">
 									<img src="/coreasusa/public/img/products/poids.svg" alt="">
 								</div>
-								<p class="mb-0">5500 kg</p>
+								<p class="mb-0">5000 kg</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -184,15 +184,19 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-06.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-05.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Battery </a></h4>
-								<div class="text">Max. Capacity: WT <br>
-									Charge Capacity: 90m <br>
-									Operation Mode: Stand-On
+								<h4><a href="#">JLG 860SJ</a></h4>
+								<div class="text">Working-height: 28.20m <br>
+									tailswing: 1.42m <br>
+									platform-size: 0.91mx2.44m
 								</div>
 
+								<div class="img-poids">
+									<img src="/coreasusa/public/img/products/poids.svg" alt="">
+								</div>
+								<p class="mb-0">230 kg</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -202,18 +206,18 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-03.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-06.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Diesel Forkilft</a></h4>
-								<div class="text">Max.Load Capacity: 1.5T<br>
-									Max.Left Height: 3m <br>
-									Operation Mode: Seated
+								<h4><a href="#">XH-550M Taylor Forklif</a></h4>
+								<div class="text">Load CENTER: 48 IN / 1219 MM<br>
+									TIRES: 14.00 X 25-24PR <br>
+									WHEELBASE : 170.0 IN/4318 MM
 								</div>
 								<div class="img-poids">
 									<img src="/coreasusa/public/img/products/poids.svg" alt="">
 								</div>
-								<p class="mb-0">4500 kg</p>
+								<p class="mb-0">55K LBS / 25K KG</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -223,18 +227,18 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-04.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-07.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">HWCY-50 ALL-terrain</a></h4>
-								<div class="text">Power:88Kw <br>
-									Tire: 12-16.5 vacuum off-road<br>
-									Lift height: 3m
+								<h4><a href="#">Taylor X-450M</a></h4>
+								<div class="text">Load CENTER: 36 IN / 914 MM<br>
+									TIRES: 14.00 X 25-20PR <br>
+									WHEELBASE : 156.0 IN/3962 MM
 								</div>
 								<div class="img-poids">
 									<img src="/coreasusa/public/img/products/poids.svg" alt="">
 								</div>
-								<p class="mb-0">5500 kg</p>
+								<p class="mb-0">45000 LBS / 20412 KG</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -244,18 +248,18 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-02.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/f-08.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Semi-electric Stacker</a></h4>
-								<div class="text">MMax.Load Capacity: 2T <br>
-									Max.Lift Height: 3500 mm <br>
-									Operation Mode: Hand-push
+								<h4><a href="#">Taylor X-450M</a></h4>
+								<div class="text">Load CENTER: 36 IN / 914 MM<br>
+									TIRES: 14.00 X 25-20PR <br>
+									WHEELBASE : 156.0 IN/3962 MM
 								</div>
 								<div class="img-poids">
 									<img src="/coreasusa/public/img/products/poids.svg" alt="">
 								</div>
-								<p class="mb-0">1500 kg</p>
+								<p class="mb-0">45000 LBS / 20412 KG</p>
 
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
@@ -265,16 +269,17 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-06.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/b-01.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Battery </a></h4>
-								<div class="text">Max. Capacity: WT <br>
-									Charge Capacity: 90m <br>
-									Operation Mode: Stand-On
+								<h4><a href="#">Used Forklift Battery</a></h4>
+								<div class="text">
+									Voltage: Any volt <br>
+									Lead acid or Lithium-ion<br>
+									Size: Any <br>
+									Nationwide Shipping
+
 								</div>
-
-
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
@@ -284,40 +289,36 @@
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-05.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/c-01.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Full-automatic Stacker</a></h4>
-								<div class="text">Max.Load Capacity: 2T <br>
-									Max.Lift Height: 5m <br>
-									Operation Mode: Stand-On
+								<h4><a href="#">Forklift Battery Chargers</a></h4>
+								<div class="text">
+									Capacity: Any volt <br>
+									Cell: Any <br>
+									Single or Triple Phase <br>
+									Nationwide Shipping
 								</div>
-								<div class="img-poids">
-									<img src="/coreasusa/public/img/products/poids.svg" alt="">
-								</div>
-								<p class="mb-0">1200 kg</p>
-
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>
 					</div>
+
 					<!-- Block 11-->
 					<div class="approach-block col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<a href="#"><img src="/coreasusa/public/img/products/pv-01.jpg" alt="" /></a>
+								<a href="#"><img src="/coreasusa/public/img/products/t-01.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Electric Forkilft</a></h4>
-								<div class="text">Max.Load Capacity: 3T<br>
-									Max.Left Height: 3m <br>
-									Operation Mode: Seated
-								</div>
-								<div class="img-poids">
-									<img src="/coreasusa/public/img/products/poids.svg" alt="">
-								</div>
-								<p class="mb-0">4500 kg</p>
+								<h4><a href="#">Used forklift tires</a></h4>
+								<div class="text">
+									Types: Smooth or treaded <br>
+									Any Width and Height <br>
+									Any Diameter  <br>
+									Nationwide Shipping
 
+								</div>
 								<!-- <a class="explore" href="#">Explore More <span class="fa fa-plus"></span></a> -->
 							</div>
 						</div>

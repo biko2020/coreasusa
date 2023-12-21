@@ -38,6 +38,7 @@ return [
      'forklifts' => 'Forklifts',
      'pallet-jack' => 'Pallet Jack',
      'tires' => 'Tires',
+     'Battery'=>'Battery',
      'read-more' => 'Read More',
 
      // ----  About Section -------//

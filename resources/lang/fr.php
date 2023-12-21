@@ -36,9 +36,10 @@ return [
 
 
   // ----  service Block -------//
-  'forklifts' => 'Chariots Élévateurs',
+  'forklifts' => 'Levage',
   'pallet-jack' => 'Transpalette',
   'tires' => 'Pneus',
+  'Battery'=>'Batteries',
   'read-more' => 'Plus ...',
 
   // ----  About Section -------//
@@ -56,7 +57,7 @@ return [
 
   // ----  Equipments Names -------//
   'equipment-forklift' => 'Manutention',
-  'equipment-lifting' => 'Elévation',
+  'equipment-lifting' => 'Levage',
   'equipment-battery' => 'Batteries',
   'equipment-tires' => 'Pneus',
   'equipment-various' => 'Divers',

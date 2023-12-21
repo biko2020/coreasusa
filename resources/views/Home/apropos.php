@@ -97,7 +97,7 @@
 									<?= $lang['apropos-slide-Text'] ?>
 								</div>
 								<div class="button-box">
-									<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span
+									<a class="btn-style-one theme-btn" href="/coreasusa/maintenance?lang=<?= $lang['language']; ?>"><span
 											class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
 								</div>
 							</div>
@@ -124,7 +124,7 @@
 									<?= $lang['apropos-slide-Text'] ?>
 								</div>
 								<div class="button-box">
-									<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span
+									<a class="btn-style-one theme-btn" href="/coreasusa/maintenance?lang=<?= $lang['language']; ?>"><span
 											class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
 								</div>
 							</div>
@@ -151,7 +151,7 @@
 									<?= $lang['apropos-slide-Text'] ?>
 								</div>
 								<div class="button-box">
-									<a class="btn-style-one theme-btn" href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"><span
+									<a class="btn-style-one theme-btn" href="/coreasusa/maintenance?lang=<?= $lang['language']; ?>"><span
 											class="txt">Services <i class="arrow fa fa-angle-right"></i></span></a>
 								</div>
 							</div>
@@ -171,7 +171,7 @@
 					<div class="row clearfix">
 
 						<!-- Service Block -->
-						<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="service-block col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
 								</div>
@@ -194,7 +194,7 @@
 						</div>
 
 						<!-- Service Block -->
-						<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="service-block col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
 								</div>
@@ -216,7 +216,7 @@
 						</div>
 
 						<!-- Service Block -->
-						<div class="service-block col-lg-4 col-md-6 col-sm-12">
+						<div class="service-block col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
 								</div>
@@ -230,6 +230,28 @@
 									</a></h5>
 								<div class="text">
 									<?= $lang['tires'] ?>
+								</div>
+								<a class="read-more" href="#">
+									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
+								</a>
+							</div>
+						</div>
+
+						<!-- Service Block -->
+						<div class="service-block col-lg-3 col-md-6 col-sm-12">
+							<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<div class="shape-one" style="background-image:url(/coreasusa/public/img/services-block/shape-1.png)">
+								</div>
+								<div class="shape-two" style="background-image:url(/coreasusa/public/img/services-block/shape-2.png)">
+								</div>
+								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
+								</div>
+								<div class="icon flaticon-battery"></div>
+								<h5><a class="oil-gas.html" href="#">
+										<?= $lang['Battery'] ?>
+									</a></h5>
+								<div class="text">
+									<?= $lang['Battery'] ?>
 								</div>
 								<a class="read-more" href="#">
 									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
@@ -357,7 +379,7 @@
 									<span class="icon-two flaticon-factory"></span>
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<h5><a href="oil-gas.html">
+											<h5><a href="#">
 													<?= $lang['vente'] ?>
 												</a></h5>
 											<div class="text">
@@ -393,7 +415,7 @@
 									<span class="icon-two flaticon-factory"></span>
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<h5><a href="oil-gas.html">
+											<h5><a href="#">
 													<?= $lang['location'] ?>
 												</a></h5>
 											<div class="text">
@@ -429,7 +451,7 @@
 									<span class="icon-two flaticon-fluid-mechanics"></span>
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<h5><a href="oil-gas.html">
+											<h5><a href="#">
 													<?= $lang['miseenservice'] ?>
 												</a></h5>
 											<div class="text">
@@ -465,7 +487,7 @@
 									<span class="icon-two flaticon-factory"></span>
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<h5><a href="oil-gas.html">
+											<h5><a href="#">
 													<?= $lang['location'] ?>
 												</a></h5>
 											<div class="text">
@@ -501,7 +523,7 @@
 									<span class="icon-two flaticon-fluid-mechanics"></span>
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<h5><a href="oil-gas.html">
+											<h5><a href="#">
 													<?= $lang['miseenservice'] ?>
 												</a></h5>
 											<div class="text">
@@ -537,7 +559,7 @@
 									<span class="icon-two flaticon-factory"></span>
 									<div class="overlay-inner">
 										<div class="overlay-content">
-											<h5><a href="oil-gas.html">
+											<h5><a href="#">
 													<?= $lang['location'] ?>
 												</a></h5>
 											<div class="text">
@@ -604,7 +626,7 @@
 										<?= $lang['vente']; ?>
 									</div>
 									<a class="arrow flaticon-right-arrow"
-										href="/coreasusa/manutention?lang=<?= $lang['language']; ?>"></a>
+										href="/coreasusa/maintenance?lang=<?= $lang['language']; ?>"></a>
 								</div>
 							</div>
 						</div>
@@ -672,7 +694,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-1.png" alt="" /></a>
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-1.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -734,7 +756,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-3.png" alt="" /></a>
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-3.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -744,7 +766,7 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="#">Anne Johnson</a></h5>
+								<h5><a href="#">Meryem Boulal</a></h5>
 								<div class="designation">Secretary</div>
 								<div class="middle-content">
 									<ul class="list">
@@ -765,7 +787,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-4.png" alt="" /></a>
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-4.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -775,12 +797,12 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="team-detail.html">Ait Oufkir Brahim</a></h5>
-								<div class="designation">Commercial</div>
+								<h5><a href="team-detail.html">Mostafa Boulal</a></h5>
+								<div class="designation">Directeur Commercial</div>
 								<div class="middle-content">
 									<ul class="list">
-										<li><span class="icon flaticon-call-1"></span>+212 063828405</li>
-										<li><span class="icon flaticon-mail"></span>aitoufkirbrahimab@gmail.com</li>
+										<li><span class="icon flaticon-call-1"></span>+212 0606220873</li>
+										<li><span class="icon flaticon-mail"></span>contact@coreasusa.com</li>
 									</ul>
 								</div>
 								<div class="btn-box text-center">

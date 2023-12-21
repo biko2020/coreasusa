@@ -44,6 +44,15 @@
   }
 
 
+  .flaticon-battery:before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/services-block/white-battery.png") no-repeat center center;
+    background-size: cover;
+  }
+
 .flaticon-play-button:before {
   content: "\f101";
 }

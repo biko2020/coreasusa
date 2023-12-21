@@ -198,7 +198,7 @@
 									<a href="#"><img src="/coreasusa/public/img/products/levage/6.png" alt="" /></a>
 								</div>
 							</div>
-							<h5><a href="#"> IMER Articulated Boom Lift Battery Operated</a></h5>
+							<h5><a href="#"> Electric Articutating Boom Lift</a></h5>
 							<div class="category"></div>
 							<div class="lower-box clearfix">
 								<div class="pull-left">
