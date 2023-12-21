@@ -12,7 +12,7 @@ return [
      'materiels' => 'EQUIPMENTS',
      // ---- Sub Menu -------//
      'elevation' => 'Lifting',
-     'traction' => 'Traction',
+     'traction' => 'Construction Vehicles',
      'divers' => 'Other Equipments',
 
      'services' => 'SERVICES',
@@ -114,6 +114,12 @@ return [
   
     // ----  End levage -------//
 
+        // ----  Traction Page -------//
+        'traction-back-text' => 'Vehicles',
+        'traction-products' => 'Construction Vehicles',
+        'traction-title' => 'We provide all types of construction vehicles.',
+      
+        // ----  End Traction -------//
 
 ];
 ?>

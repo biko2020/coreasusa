@@ -40,13 +40,166 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1>
-			<?= $lang['traction'] ?>
-		</h1>
+		<!-- Page Title -->
+		<section class="page-title" style="background-image: url(/coreasusa/public/img/background/s-3.png)">
+			<div class="auto-container">
+
+				<h2>
+					<?= $lang['traction'] ?>
+				</h2>
+			</div>
+		</section>
+		<!-- End Page Title -->
+
+
+
+		<section class="products-section">
+			<div class="auto-container">
+				<div class="sec-title centered">
+					<div class="big-text">
+						<?= $lang['traction-back-text']; ?>
+					</div>
+					<div class="title">
+						<?= $lang['traction-products']; ?>
+					</div>
+					<h2>
+						<?= $lang['traction-title']; ?>
+					</h2>
+				</div>
+				<div class="products-carousel owl-carousel owl-theme">
+
+					<!-- Product 1 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/vehicules/1.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">Belaz 68010</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										poids: 28t<br>
+										Pneumatiques standard: 26,5-25 НС32 <br>
+										Capacité du godet: 4.8m³<br>
+										Type de direction: KL<br>
+										Longueur de transport: 9.2m<br>
+										Largeur de transport: 3.2m
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 2 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/vehicules/2.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">Hidromek HMK 640 WL</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										poids: 26.3t<br>
+										Pneumatiques standard: 26.5 R 25 L3<br>
+										Largeur d` godet: 3.3m<br>
+										Capacité du godet: 4.2m³ <br>
+										Capacité du godet min.: 4.2m³<br>
+										Type de direction: KL
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 3 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/vehicules/3.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">Sany SW405K</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										poids: 18.5t<br>
+										Largeur d` godet: 2.975m <br>
+										Capacité du godet: 3m³ <br>
+										Capacité du godet min.: 3m³ <br>
+										Type de direction: AL <br>
+										Longueur de transport: 6.862m
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product 4 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/vehicules/4.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#">Uranos ZL 50 Gl</a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										poids: 17.5t <br>
+										Pneumatiques standard: 23.5-25-16 PR<br>
+										Capacité du godet: 3m³ <br>
+										Capacité du godet min.: 3m³ <br>
+										Longueur de transport: 8.11m <br>
+										Largeur de transport: 3m
+
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
 
 	</div>
 	<!-- End page-wrapper -->
-
+	<?php
+	// inlude footer page
+	include __DIR__ . '/../footer.php';
+	?>
 
 
 	<script src="/coreasusa/public/js/jquery.js"></script>

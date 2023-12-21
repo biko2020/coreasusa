@@ -43,7 +43,7 @@
 
 
 		<!-- Page Title -->
-		<section class="page-title" style="background-image: url(/coreasusa/public/img/background/s-1.jpg)">
+		<section class="page-title" style="background-image: url(/coreasusa/public/img/background/s-1.png)">
 			<div class="auto-container">
 
 				<h2>
