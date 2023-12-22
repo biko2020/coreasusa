@@ -50,12 +50,82 @@
 		</section>
 		<!-- End Page title -->
 
+		<!-- Process Section -->
+		<section class="process-section">
+			<div class="auto-container">
+				<div class="row clearfix">
 
+					<!-- Content Column -->
+					<div class="content-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<!-- Sec Title -->
+							<div class="sec-title alternate">
+								<div class="title"><?= $lang['process-title']; ?></div>
+								<h2><?= $lang['process-title2']; ?></h2>
+							</div>
+							<!-- Blocks Outer -->
+							<div class="blocks-outer">
+
+								<!-- Process Block -->
+								<div class="process-block">
+									<div class="inner-box">
+										<div class="number">01</div>
+										<strong><?= $lang['process-One-title']; ?></strong>
+										<?= $lang['process-One-text']; ?>
+									</div>
+								</div>
+
+								<!-- Process Block -->
+								<div class="process-block">
+									<div class="inner-box">
+										<div class="number">02</div>
+										<strong><?= $lang['process-Two-title']; ?></strong>
+										<?= $lang['process-Two-text']; ?>
+									</div>
+								</div>
+
+								<!-- Process Block -->
+								<div class="process-block">
+									<div class="inner-box">
+										<div class="number">03</div>
+										<strong><?= $lang['process-Three-title']; ?></strong>
+										<?= $lang['process-Three-text']; ?>
+									</div>
+								</div>
+							</div>
+							<!-- End Blocks Outer -->
+						</div>
+					</div>
+
+					<!-- Images Column -->
+					<div class="images-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<img src="/coreasusa/public/img/mise-en-service/p-01.jpg" alt="" />
+							</div>
+							<div class="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<img src="/coreasusa/public/img/mise-en-service/p-02.jpg" alt="" />
+							</div>
+							<div class="image-two wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<img src="/coreasusa/public/img/mise-en-service/p-03.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Process Section -->
 
 
 	</div>
 	<!-- End page-wrapper -->
+	<?php
 
+	// include footer.php page
+	include __DIR__ . '/../footer.php';
+
+	?>
 
 
 	<script src="/coreasusa/public/js/jquery.js"></script>

@@ -150,10 +150,27 @@ return [
   'miseenservice-rental' => 'Équipements pour location',
   'rental-content' => 'La location d\'équipement peut être une option plus abordable que l\'achat direct, surtout si vous n\'avez pas beaucoup d\'argent sous la main.
   ',
-  'ourExpert-title'=> 'Nos experts mettront en service votre équipement',
-  'ourExpert-content'=> 'Nos spécialistes se chargeront de mettre en service votre équipement, permettant ainsi son utilisation.',
+  'ourExpert-title' => 'Nos experts mettront en service votre équipement',
+  'ourExpert-content' => 'Nos spécialistes se chargeront de mettre en service votre équipement, permettant ainsi son utilisation.',
+
+
+  //  --- -Process Section
+  'process-title' => 'Comment ça marche',
+  'process-title2' => 'Le processus de travail de notre entreprise',
+  'process-One-title' => 'Choisissez le type d\'équipement',
+  'process-One-text' => 'Une gamme diversifiée d\'équipements pour trouver celui qui correspond le mieux à vos besoins. ',
+  'process-Two-title' => 'Type de solution : (achat ou location)',
+  'process-Two-text' => 'Approche pour votre entreprise en considérant les avantages de l\'achat direct ou de la location. Nous offrons des solutions flexibles adaptées à vos exigences spécifiques.',
+  'process-Three-title' => 'Mise en marche',
+  'process-Three-text' => 'Laissez nos spécialistes prendre en charge la mise en service de votre équipement. Profitez d\'une transition en douceur vers une utilisation optimale, avec une équipe dédiée à garantir votre satisfaction.',
+
+  //  --- -
+
+
 
   // ---- End Mise en service page  ---//
+
+
 
 
 ];

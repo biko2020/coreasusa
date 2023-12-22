@@ -142,9 +142,27 @@ return [
     'sale-content' => 'The purchase of equipment can be a good investment if you plan to keep it for a long time. You can also resell it later if you no longer need it.',
     'miseenservice-rental' => 'Equipment for rent',
     'rental-content' => 'Renting equipment can be a more affordable option than a direct purchase, especially if you don\'t have a lot of money on hand.',
-    'ourExpert-title'=> 'Our experts will commission your equipment',
-    'ourExpert-content'=>'Our specialists will take care of commissioning your equipment, thereby enabling its use.',
+    'ourExpert-title' => 'Our experts will commission your equipment',
+    'ourExpert-content' => 'Our specialists will take care of commissioning your equipment, thereby enabling its use.',
+
+
+    //  --- -Process Section
+    'process-title' => 'How It Work',
+    'process-title2' => 'Our Company\'s Workflow',
+    'process-One-title' => 'Choose the type of equipment',
+    'process-One-text' => 'A diverse range of equipment to find the one that best suits your needs.',
+    'process-Two-title' => 'Type of Solution: (Purchase or Rental)',
+    'process-Two-text' => 'Consider an approach for your business, weighing the advantages of direct purchase or leasing. We provide flexible solutions tailored to your specific requirements.',
+    'process-Three-title' => 'Start-up',
+    'process-Three-text' => 'Let our specialists handle the commissioning of your equipment. Experience a seamless transition to optimal usage with a dedicated team ensuring your satisfaction.',
+
+    //  --- -
+
     // ---- End Mise en service page  ---//
+
+
+
+
 
 ];
 ?>
