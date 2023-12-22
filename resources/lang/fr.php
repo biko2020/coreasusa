@@ -166,11 +166,21 @@ return [
 
   //  --- -
 
-
-
   // ---- End Mise en service page  ---//
 
+  // ---- Maintenance page  -------//
+  'servicing-title' => 'J\'expose mon besoin',
+  'servicing-title2' => 'VOUS SOUHAITEZ FAIRE APPEL À CORESAUSA POUR',
 
+  'servicing-One-title' => 'Entretien de chariots élévateurs',
+  'servicing-One-text' => 'Notre entreprise réalise des entretiens préventifs sur vos équipements de levage et de manutention. Cette pratique implique des interventions régulières sur vos machines, comprenant le remplacement de pièces détachées, la vérification et le réglage des liquides, ainsi que l\'évaluation de l\'usure du matériel en fonction de son environnement.',
+  'servicing-Two-title' => 'Maintenance de chariots élévateurs',
+  'servicing-Two-text' => 'Coreasusa assure avec efficacité la gestion des parcs d\'équipements de levage et de manutention de ses clients. Cette gestion se concrétise par la mise en œuvre de maintenance préventive, corrective et curative sur des machines en location à long terme. Ces services regroupent diverses opérations d\'entretien visant à anticiper les pannes et à effectuer des réparations dès qu\'un problème est identifié.
+  ',
+  'servicing-Three-title' => 'Pièce de rechange',
+  'servicing-Three-text' => 'Les pièces de rechange jouent un rôle crucial dans le maintien de l\'efficacité et de la longévité des équipements industriels. Ces composants servent de sauvegardes essentielles, prêtes à remplacer ou à réparer les pièces usées ou défectueuses, minimisant ainsi les temps d\'arrêt et assurant la continuité des opérations. Dans notre entreprise, nous comprenons l\'importance des pièces de rechange de haute qualité pour maintenir des performances optimales. Nous proposons une gamme complète de pièces de rechange d\'origine, soigneusement sélectionnées et testées pour répondre aux spécifications exactes de vos machines. Que vous ayez besoin de remplacements pour un entretien de routine ou des réparations inattendues, notre engagement est de fournir des pièces de rechange fiables et durables afin d\'assurer le bon fonctionnement de votre équipement. Faites-nous confiance pour des composants de qualité contribuant au bon fonctionnement de vos machines industrielles.',
+
+  // ---- End Maintenance page  -------//
 
 
 ];

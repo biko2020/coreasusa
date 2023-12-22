@@ -160,7 +160,17 @@ return [
 
     // ---- End Mise en service page  ---//
 
-
+    // ---- Maintenance page  -------//
+    'servicing-title' => 'I am stating my need',
+    'servicing-title2' => 'YOU WISH TO CALL ON CORESAUSA FOR',
+    'servicing-One-title' => 'Forklift Maintenance',
+    'servicing-One-text' => 'Our company conducts preventive maintenance on your lifting and handling equipment. This practice involves regular interventions on your machines, encompassing the replacement of spare parts, checking and adjusting fluids, as well as evaluating equipment wear in response to its environment.',
+    'servicing-Two-title' => 'Forklift Servicing',
+    'servicing-Two-text' => 'Coreasusa successfully manages its clients\' fleets of lifting and handling equipment. This management involves the implementation of preventive, corrective, and remedial maintenance on machines under long-term leases. These services encompass a range of maintenance operations aimed at anticipating breakdowns and promptly addressing issues as soon as they are identified.',
+    'servicing-Three-title' => 'Spare Parts',
+    'servicing-Three-text' => 'Spare parts play a crucial role in maintaining the efficiency and longevity of industrial equipment. These components serve as essential backups, ready to replace or repair worn-out or malfunctioning parts, minimizing downtime and ensuring continuous operations. At our company, we understand the significance of high-quality spare parts in sustaining optimal performance. We offer a comprehensive range of genuine spare parts, meticulously sourced and tested to meet the exact specifications of your machinery. Whether you need replacements for routine maintenance or unexpected repairs, our commitment is to provide reliable and durable spare parts to keep your equipment running smoothly. Trust us for quality components that contribute to the seamless functioning of your industrial machinery.
+    ',
+    // ---- End Maintenance page  -------//
 
 
 

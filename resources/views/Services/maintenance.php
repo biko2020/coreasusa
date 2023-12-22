@@ -60,8 +60,8 @@
 						<div class="inner-column">
 							<!-- Sec Title -->
 							<div class="sec-title alternate">
-								<div class="title"><?= $lang['process-title']; ?></div>
-								<h2><?= $lang['process-title2']; ?></h2>
+								<div class="title"><?= $lang['servicing-title']; ?></div>
+								<h2><?= $lang['servicing-title2']; ?></h2>
 							</div>
 							<!-- Blocks Outer -->
 							<div class="blocks-outer">
@@ -70,8 +70,8 @@
 								<div class="process-block">
 									<div class="inner-box">
 										<div class="number">01</div>
-										<strong><?= $lang['process-One-title']; ?></strong>
-										<?= $lang['process-One-text']; ?>
+										<strong><?= $lang['servicing-One-title']; ?></strong>
+										<?= $lang['servicing-One-text']; ?>
 									</div>
 								</div>
 
@@ -79,8 +79,8 @@
 								<div class="process-block">
 									<div class="inner-box">
 										<div class="number">02</div>
-										<strong><?= $lang['process-Two-title']; ?></strong>
-										<?= $lang['process-Two-text']; ?>
+										<strong><?= $lang['servicing-Two-title']; ?></strong>
+										<?= $lang['servicing-Two-text']; ?>
 									</div>
 								</div>
 
@@ -88,8 +88,8 @@
 								<div class="process-block">
 									<div class="inner-box">
 										<div class="number">03</div>
-										<strong><?= $lang['process-Three-title']; ?></strong>
-										<?= $lang['process-Three-text']; ?>
+										<strong><?= $lang['servicing-Three-title']; ?></strong>
+										<?= $lang['servicing-Three-text']; ?>
 									</div>
 								</div>
 							</div>
@@ -101,13 +101,13 @@
 					<div class="images-column col-lg-6 col-md-12 col-sm-12">
 						<div class="inner-column">
 							<div class="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<img src="/coreasusa/public/img/mise-en-service/p-01.jpg" alt="" />
+								<img src="/coreasusa/public/img/mise-en-service/s-01.jpg" alt="" />
 							</div>
 							<div class="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<img src="/coreasusa/public/img/mise-en-service/p-02.jpg" alt="" />
+								<img src="/coreasusa/public/img/mise-en-service/s-02.jpg" alt="" />
 							</div>
 							<div class="image-two wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<img src="/coreasusa/public/img/mise-en-service/p-03.jpg" alt="" />
+								<img src="/coreasusa/public/img/mise-en-service/s-03.jpg" alt="" />
 							</div>
 						</div>
 					</div>
