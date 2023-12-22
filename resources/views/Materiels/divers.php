@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$lang['divers']?></title>
+	<title>
+		<?= $lang['divers'] ?>
+	</title>
 
 
 </head>
@@ -39,10 +41,155 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1><?=$lang['divers']?> </h1>
+
+		<!-- Page Title -->
+		<section class="page-title" style="background-image: url(/coreasusa/public/img/background/s-3.png)">
+			<div class="auto-container">
+
+				<h2>
+					<?= $lang['divers'] ?>
+				</h2>
+			</div>
+		</section>
+		<!-- End Page Title -->
+
+
+
+		<section class="products-section">
+			<div class="auto-container">
+				<div class="sec-title alternate centered">
+					<div class="title"><?= $lang['divers-title']; ?></div>
+					<p><?= $lang['divers-text']; ?></p>
+				</div>
+				<div class="products-carousel owl-carousel owl-theme">
+
+					<!-- Traction Battery -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/other-equipment/b-01.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"><?= $lang['divers-battery']; ?></a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										Voltage: Any volt <br>
+										Lead acid or Lithium-ion<br>
+										Size: Any <br>
+										Nationwide Shipping
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Industrial Tires -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/other-equipment/t-01.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"><?= $lang['divers-tires']; ?></a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										Types: Smooth or treaded <br>
+										Any Width and Height <br>
+										Any Diameter <br>
+										Nationwide Shipping
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Battery Chargers -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/other-equipment/c-01.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"><?= $lang['divers-chargers']; ?></a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										Capacity: Any volt <br>
+										Cell: Any <br>
+										Single or Triple Phase <br>
+										Nationwide Shipping
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pallet Jack 4 -->
+					<div class="product-block">
+						<div class="inner-box">
+							<div class="color-layer"></div>
+							<div class="image-box">
+								<div class="image">
+									<a href="#"><img src="/coreasusa/public/img/products/other-equipment/p-01.png" alt="" /></a>
+								</div>
+							</div>
+							<h5><a href="#"><?= $lang['divers-pallet']; ?></a></h5>
+							<div class="category"></div>
+							<div class="lower-box clearfix">
+								<div class="pull-left">
+									<div class="price">
+										Capacity: Any <br>
+										Model: Any <br>
+										Electric Pallet Jack <br>
+										Nationwide Shipping
+
+									</div>
+								</div>
+
+							</div>
+							<div class="btn-box text-center">
+								<a class="read-more" href="#"> <span class="flaticon-industrial-robot"></span></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
 
 	</div>
+
 	<!-- End page-wrapper -->
+	<?php
+	// inlude footer page
+	include __DIR__ . '/../footer.php';
+	?>
+
+
 
 
 

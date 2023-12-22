@@ -62,7 +62,7 @@
                       <li><a href="#" class="fa fa-facebook"></a></li>
                       <li><a href="#" class="fa fa-twitter"></a></li>
                       <li><a href="#" class="fa fa-linkedin"></a></li>
-                      <li><a href="#" class="fa fa-youtube"></a></li>
+                      <li><a href="https://www.youtube.com/embed/9w1gW77QY6I" class="fa fa-youtube"></a></li>
                     </ul>
                     <!-- End Social Box -->
 

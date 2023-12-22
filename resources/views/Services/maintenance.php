@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$lang['maintenance']?></title>
+	<title>
+		<?= $lang['maintenance'] ?>
+	</title>
 
 </head>
 
@@ -38,7 +40,18 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1><?=$lang['maintenance']?> </h1>
+		<!-- Page title -->
+		<section class="page-title" style="background-image:url(/coreasusa/public/img/background/s-1.jpg)">
+			<div class="auto-container">
+				<h2>
+					<?= $lang['maintenance'] ?>
+				</h2>
+			</div>
+		</section>
+		<!-- End Page title -->
+
+
+
 
 	</div>
 	<!-- End page-wrapper -->

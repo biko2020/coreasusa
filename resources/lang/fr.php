@@ -39,7 +39,7 @@ return [
   'forklifts' => 'Levage',
   'pallet-jack' => 'Transpalette',
   'tires' => 'Pneus',
-  'Battery'=>'Batteries',
+  'Battery' => 'Batteries',
   'read-more' => 'Plus ...',
 
   // ----  About Section -------//
@@ -121,12 +121,40 @@ return [
   // ----  End levage -------//
 
 
-    // ----  Traction Page -------//
-    'traction-back-text' => 'Véhicules',
-    'traction-products' => 'Véhicules de construction',
-    'traction-title' => 'Nous fournissons tous types de véhicules de construction.',
-  
-    // ----  End Traction -------//
+  // ----  Traction Page -------//
+  'traction-back-text' => 'Véhicules',
+  'traction-products' => 'Véhicules de construction',
+  'traction-title' => 'Nous fournissons tous types de véhicules de construction.',
+
+  // ----  End Traction -------//
+
+
+  // ----  Divers Page -------//
+  'divers-title' => 'Le meilleur équipement industriel',
+  'divers-text' => 'Nous proposons des chariots élévateurs électriques et d\'autres équipements en excellent état d\'occasion. Nous sommes également spécialisés dans la vente de batteries au plomb neuves et de nouveaux pneus industriels.
+      Nous sommes là pour vous servir et contribuer à la prospérité de votre entreprise.',
+  'divers-pallet' => 'Transpalette électrique',
+  'divers-battery' => 'Batterie',
+  'divers-tires' => 'Pneus industriels',
+  'divers-chargers' => 'Chargeurs de batterie',
+  // ----  End Divers -------//
+
+  // ---- Mise en service page  -------//
+  'miseenservice-text' => 'Mise en service exceptionnelle',
+  'miseenservice-title' => 'Coreasusa fournit des services <br> Pour votre entreprise',
+  'miseenservice-choseEquipment' => 'Quel type d’équipement avez-vous besoin ?',
+  'choseEquipment-content' => 'Déterminez exactement ce dont vous avez besoin. Quel type d\'équipement recherchez-vous pour votre entreprise.',
+  'miseenservice-sale' => 'Équipement pour achat',
+  'sale-content' => 'L’achat d’équipement peut être un bon investissement si vous envisagez de le conserver longtemps. Vous pouvez également le revendre plus tard si vous n’en avez plus besoin.
+ ',
+  'miseenservice-rental' => 'Équipements pour location',
+  'rental-content' => 'La location d\'équipement peut être une option plus abordable que l\'achat direct, surtout si vous n\'avez pas beaucoup d\'argent sous la main.
+  ',
+  'ourExpert-title'=> 'Nos experts mettront en service votre équipement',
+  'ourExpert-content'=> 'Nos spécialistes se chargeront de mettre en service votre équipement, permettant ainsi son utilisation.',
+
+  // ---- End Mise en service page  ---//
+
 
 ];
 

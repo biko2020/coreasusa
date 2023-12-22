@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?=$lang['miseenservice']?></title>
+	<title>
+		<?= $lang['miseenservice'] ?>
+	</title>
 
 </head>
 
@@ -38,11 +40,224 @@
 		</div>
 		<!-- scrollToTop end -->
 
-		<h1><?=$lang['miseenservice']?> </h1>
+
+		<!-- Page title -->
+		<section class="page-title" style="background-image:url(/coreasusa/public/img/background/s-1.jpg)">
+			<div class="auto-container">
+				<h2>
+					<?= $lang['miseenservice'] ?>
+				</h2>
+			</div>
+		</section>
+		<!-- End Page title -->
+
+
+
+		<!-- Services Section Five -->
+		<section class="service-section-five">
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="sec-title alternate centered">
+					<div class="title">
+						<?= $lang['miseenservice-text']; ?>
+					</div>
+					<h2>
+						<?= $lang['miseenservice-title']; ?>
+					</h2>
+				</div>
+				<div class="row clearfix">
+
+					<!-- Chose equipment -->
+					<div class="service-block-four style-two col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/service-4.png)">
+							</div>
+							<div class="post-number">01</div>
+							<div class="icon-box">
+								<span class="icon flaticon-factory"></span>
+							</div>
+							<h5><a href="#">
+									<?= $lang['miseenservice-choseEquipment'] ?>
+								</a></h5>
+							<div class="text">
+								<?= $lang['choseEquipment-content']; ?>
+							</div>
+							<a class="arrow flaticon-right-arrow-1" href="#"></a>
+						</div>
+					</div>
+
+					<!-- For sale -->
+					<div class="service-block-four style-two col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms">
+							<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/service-4.png)">
+							</div>
+							<div class="post-number">02</div>
+							<div class="icon-box">
+								<span class="icon flaticon-dollar-symbol"></span>
+							</div>
+							<h5><a href="#"></a>
+								<?= $lang['miseenservice-sale']; ?>
+							</h5>
+							<div class="text">
+								<?= $lang['sale-content']; ?>
+							</div>
+							<a class="arrow flaticon-right-arrow-1" href="#"></a>
+						</div>
+					</div>
+
+					<!-- For Rental-->
+					<div class="service-block-four style-two col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+							<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/service-4.png)">
+							</div>
+							<div class="post-number">03</div>
+							<div class="icon-box">
+								<span class="icon flaticon-user"></span>
+							</div>
+							<h5><a href="#">
+									<?= $lang['miseenservice-rental'] ?>
+								</a></h5>
+							<div class="text">
+								<?= $lang['rental-content'] ?>
+							</div>
+							<a class="arrow flaticon-right-arrow-1" href="#"></a>
+						</div>
+					</div>
+
+					<!-- Our Expert -->
+					<div class="service-block-four style-two col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
+							<div class="image-layer" style="background-image:url(/coreasusa/public/img/background/service-4.png)">
+							</div>
+							<div class="post-number">04</div>
+							<div class="icon-box">
+								<span class="icon flaticon-engineer"></span>
+							</div>
+							<h5><a href="#">
+									<?= $lang['ourExpert-title']; ?>
+								</a></h5>
+							<div class="text">
+								<?= $lang['ourExpert-content']; ?>
+							</div>
+							<a class="arrow flaticon-right-arrow-1" href="#"></a>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</section>
+		<!-- End Services Section Five -->
+
+
+
+		<!-- Banniere section -->
+		<section class="cta-section-two style-two">
+			<div class="auto-container">
+				<div class="inner-container" style="background-image:url(/coreasusa/public/img/background/7.jpg)">
+					<div class="pattern-layer" style="background-image:url(/coreasusa/public/img/background/pattern-26.png)"></div>
+					<div class="pattern-layer-two" style="background-image:url(/coreasusa/public/img/background/pattern-27.png)"></div>
+					<div class="row clearfix">
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<h2>Services</h2>
+
+							<div class="play-box">
+								<a href="https://www.youtube.com/embed/9w1gW77QY6I"
+									class="lightbox-video play-button"><span class="flaticon-play-arrow"><i class="ripple"></i></span></a>
+								<?= $lang['call']; ?>
+								<strong>+ (781)521-0234</strong>
+							</div>
+
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="side-image wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+								<img src="/coreasusa/public/img/mise-en-service/m-01.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Bannier Section -->
+
+	<!-- Process Section -->
+	<section class="process-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+			
+				<!-- Content Column -->
+				<div class="content-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<!-- Sec Title -->
+						<div class="sec-title alternate">
+							<div class="title">How It Work</div>
+							<h2>Our Company Working Process</h2>
+						</div>
+						<!-- Blocks Outer -->
+						<div class="blocks-outer">
+						
+							<!-- Process Block -->
+							<div class="process-block">
+								<div class="inner-box">
+									<div class="number">01</div>
+									<strong>Discussions About Project</strong>
+									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt
+								</div>
+							</div>
+							
+							<!-- Process Block -->
+							<div class="process-block">
+								<div class="inner-box">
+									<div class="number">02</div>
+									<strong>Start Work With Team</strong>
+									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt
+								</div>
+							</div>
+							
+							<!-- Process Block -->
+							<div class="process-block">
+								<div class="inner-box">
+									<div class="number">03</div>
+									<strong>Handover & Save World</strong>
+									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt
+								</div>
+							</div>
+							
+						</div>
+						<!-- End Blocks Outer -->
+					</div>
+				</div>
+				
+				<!-- Images Column -->
+				<div class="images-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<img src="images/resource/process-1.jpg" alt="" />
+						</div>
+						<div class="image wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<img src="images/resource/process-2.jpg" alt="" />
+						</div>
+						<div class="image-two wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<img src="images/resource/process-3.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Process Section -->
+
 
 	</div>
 	<!-- End page-wrapper -->
 
+
+	<?php
+	// include footer page
+	include __DIR__ . '/../footer.php';
+	?>
 
 
 	<script src="/coreasusa/public/js/jquery.js"></script>
