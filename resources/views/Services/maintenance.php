@@ -60,8 +60,12 @@
 						<div class="inner-column">
 							<!-- Sec Title -->
 							<div class="sec-title alternate">
-								<div class="title"><?= $lang['servicing-title']; ?></div>
-								<h2><?= $lang['servicing-title2']; ?></h2>
+								<div class="title">
+									<?= $lang['servicing-title']; ?>
+								</div>
+								<h2>
+									<?= $lang['servicing-title2']; ?>
+								</h2>
 							</div>
 							<!-- Blocks Outer -->
 							<div class="blocks-outer">
@@ -70,7 +74,9 @@
 								<div class="process-block">
 									<div class="inner-box">
 										<div class="number">01</div>
-										<strong><?= $lang['servicing-One-title']; ?></strong>
+										<strong>
+											<?= $lang['servicing-One-title']; ?>
+										</strong>
 										<?= $lang['servicing-One-text']; ?>
 									</div>
 								</div>
@@ -79,7 +85,9 @@
 								<div class="process-block">
 									<div class="inner-box">
 										<div class="number">02</div>
-										<strong><?= $lang['servicing-Two-title']; ?></strong>
+										<strong>
+											<?= $lang['servicing-Two-title']; ?>
+										</strong>
 										<?= $lang['servicing-Two-text']; ?>
 									</div>
 								</div>
@@ -88,7 +96,9 @@
 								<div class="process-block">
 									<div class="inner-box">
 										<div class="number">03</div>
-										<strong><?= $lang['servicing-Three-title']; ?></strong>
+										<strong>
+											<?= $lang['servicing-Three-title']; ?>
+										</strong>
 										<?= $lang['servicing-Three-text']; ?>
 									</div>
 								</div>
@@ -108,6 +118,11 @@
 							</div>
 							<div class="image-two wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 								<img src="/coreasusa/public/img/mise-en-service/s-03.jpg" alt="" />
+							</div>
+						</div>
+						<div class="inner-column">
+							<div class="image-two wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+								<img src="/coreasusa/public/img/mise-en-service/s-04.jpg" alt="" />
 							</div>
 						</div>
 					</div>

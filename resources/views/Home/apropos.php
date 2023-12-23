@@ -814,6 +814,36 @@
 						</div>
 					</div>
 
+					<!-- Team Block -->
+					<div class="team-block">
+						<div class="inner-box">
+							<div class="image">
+								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-5.jpg" alt="" /></a>
+								<div class="social-box">
+									<a href="#" class="fa fa-facebook"></a>
+									<a href="#" class="fa fa-twitter"></a>
+									<a href="#" class="fa fa-linkedin"></a>
+									<a href="#" class="fa fa-youtube"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<span class="gear-icon"></span>
+								<h5><a href="team-detail.html">Mohammed Kadioui</a></h5>
+								<div class="designation">Commercial</div>
+								<div class="middle-content">
+									<ul class="list">
+										<li><span class="icon flaticon-call-1"></span>+212 0000000</li>
+										<li><span class="icon flaticon-mail"></span>contact@coreasusa.com</li>
+									</ul>
+								</div>
+								<div class="btn-box text-center">
+									<a class="read-more" href="#">
+										<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
