@@ -37,12 +37,12 @@ try {
   // Define your routes
   $router->addRoute('/coreasusa/', 'HomeController');
   $router->addRoute('/coreasusa/vente', 'VenteController');
-  $router->addRoute('/coreasusa/location','LocationController');
-  $router->addRoute('/coreasusa/divers','DiversController');
-  $router->addRoute('/coreasusa/elevation','ElevationController');
-  $router->addRoute('/coreasusa/traction','TractionController');
-  $router->addRoute('/coreasusa/maintenance','MaintenanceController');
-  $router->addRoute('/coreasusa/miseenservice','MiseenserviceController');
+  $router->addRoute('/coreasusa/location', 'LocationController');
+  $router->addRoute('/coreasusa/divers', 'DiversController');
+  $router->addRoute('/coreasusa/elevation', 'ElevationController');
+  $router->addRoute('/coreasusa/traction', 'TractionController');
+  $router->addRoute('/coreasusa/maintenance', 'MaintenanceController');
+  $router->addRoute('/coreasusa/miseenservice', 'MiseenserviceController');
   $router->addRoute('/coreasusa/contact', 'ContactController');
 
   // Get the current URL without the base directory

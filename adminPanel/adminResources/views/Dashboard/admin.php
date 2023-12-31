@@ -4,21 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel</title>
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="/coreasusa/public/css/bootstrap.css">
-  <link rel="stylesheet" href="/coreasusa/public/css/style.css">
-  <link rel="stylesheet" href="/coreasusa/public/css/responsive.css">
+  <title>admin</title>
+
 
 </head>
 
 <body>
 
-  <?php
-  require_once(__DIR__ . '/../../../config/admin_config.php');
-  ?>
-
-  <h1>Admin Panel </h1>
+  <h1>Admin page</h1>
 
 </body>
 
