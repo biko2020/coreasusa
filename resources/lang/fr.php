@@ -30,7 +30,7 @@ return [
   'language' => 'fr',
 
   // ----  Home Page -------//
-  'apropos-slide-Title1' => 'Solutions d\'Équipements d\'Occasion de Qualité',
+  'apropos-slide-Title1' => 'Équipements d\'Occasion de Qualité',
   'apropos-slide-Text' => 'Spécialisés dans les équipements d\'occasion, nous nous engageons à vous aider à trouver la solution parfaite pour vos besoins professionnels et votre budget.
     ',
 

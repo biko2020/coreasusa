@@ -181,13 +181,13 @@
 								</div>
 								<div class="icon flaticon-forklifts">
 								</div>
-								<h5><a class="oil-gas.html" href="#">
+								<h5><a class="oil-gas.html" href="/coreasusa/elevation?lang=<?= $lang['language']; ?>">
 										<?= $lang['forklifts'] ?>
 									</a></h5>
 								<div class="text">
 									<?= $lang['forklifts'] ?>
 								</div>
-								<a class="read-more" href="#">
+								<a class="read-more" href="/coreasusa/elevation?lang=<?= $lang['language']; ?>">
 									<?= $lang['read-more'] ?> <span class="flaticon-right-arrow"></span>
 								</a>
 							</div>
@@ -203,13 +203,13 @@
 								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
 								</div>
 								<div class="icon flaticon-pallet-jack"></div>
-								<h5><a class="oil-gas.html" href="#">
+								<h5><a class="oil-gas.html" href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
 										<?= $lang['pallet-jack'] ?>
 									</a></h5>
 								<div class="text">
 									<?= $lang['pallet-jack'] ?>
 								</div>
-								<a class="read-more" href="#">
+								<a class="read-more" href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
 									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
 								</a>
 							</div>
@@ -225,13 +225,13 @@
 								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
 								</div>
 								<div class="icon flaticon-tiers"></div>
-								<h5><a class="oil-gas.html" href="#">
+								<h5><a class="oil-gas.html" href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
 										<?= $lang['tires'] ?>
 									</a></h5>
 								<div class="text">
 									<?= $lang['tires'] ?>
 								</div>
-								<a class="read-more" href="#">
+								<a class="read-more" href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
 									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
 								</a>
 							</div>
@@ -247,13 +247,13 @@
 								<div class="image-layer" style="background-image:url(/coreasusa/public/img/services-block/service.jpg)">
 								</div>
 								<div class="icon flaticon-battery"></div>
-								<h5><a class="oil-gas.html" href="#">
+								<h5><a class="oil-gas.html" href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
 										<?= $lang['Battery'] ?>
 									</a></h5>
 								<div class="text">
 									<?= $lang['Battery'] ?>
 								</div>
-								<a class="read-more" href="#">
+								<a class="read-more" href="/coreasusa/divers?lang=<?= $lang['language']; ?>">
 									<?= $lang['read-more'] ?><span class="flaticon-right-arrow"></span>
 								</a>
 							</div>
@@ -694,7 +694,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-1.jpg" alt="" /></a>
+								<a><img src="/coreasusa/public/img/teams/team-1.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -704,16 +704,16 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="#">Youssef Boulal</a></h5>
+								<h5><a>Youssef Boulal</a></h5>
 								<div class="designation">President</div>
 								<div class="middle-content">
 									<ul class="list">
 										<li><span class="icon flaticon-call-1"></span>+ (617)447-9325</li>
-										<li><span class="icon flaticon-mail"></span>Jboulal@Coreasusa.Com</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@coreasusa.com</li>
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#">
+									<a class="read-more">
 										<?= $lang['read-more'] ?> <span class="flaticon-next-3"></span>
 									</a>
 								</div>
@@ -725,7 +725,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-2.png" alt="" /></a>
+								<a><img src="/coreasusa/public/img/teams/team-2.png" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -735,16 +735,16 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="#">Mohamed Khalfane</a></h5>
+								<h5><a >Mohamed Khalfane</a></h5>
 								<div class="designation">Vice President</div>
 								<div class="middle-content">
 									<ul class="list">
 										<li><span class="icon flaticon-call-1"></span>+ (781)521-0234</li>
-										<li><span class="icon flaticon-mail"></span>Jboulal@Coreasusa.Com</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@coreasusa.com</li>
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#">
+									<a class="read-more">
 										<?= $lang['read-more'] ?> <span class="flaticon-next-3"></span>
 									</a>
 								</div>
@@ -756,7 +756,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-3.jpg" alt="" /></a>
+								<a ><img src="/coreasusa/public/img/teams/team-3.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -766,16 +766,16 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="#">Meryem Boulal</a></h5>
+								<h5><a >Meryem Boulal</a></h5>
 								<div class="designation">Secretary</div>
 								<div class="middle-content">
 									<ul class="list">
 										<li><span class="icon flaticon-call-1"></span>+ (781)521-0234</li>
-										<li><span class="icon flaticon-mail"></span>Jboulal@Coreasusa.Com</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@coreasusa.com</li>
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#">
+									<a class="read-more">
 										<?= $lang['read-more'] ?> <span class="flaticon-next-3"></span>
 									</a>
 								</div>
@@ -787,7 +787,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-4.jpg" alt="" /></a>
+								<a ><img src="/coreasusa/public/img/teams/team-4.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -797,16 +797,16 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="team-detail.html">Mostafa Boulal</a></h5>
+								<h5><a>Mostafa Boulal</a></h5>
 								<div class="designation">Directeur Commercial</div>
 								<div class="middle-content">
 									<ul class="list">
 										<li><span class="icon flaticon-call-1"></span>+212 0606220873</li>
-										<li><span class="icon flaticon-mail"></span>contact@coreasusa.com</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@coreasusa.com</li>
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#">
+									<a class="read-more">
 										<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
 									</a>
 								</div>
@@ -818,7 +818,7 @@
 					<div class="team-block">
 						<div class="inner-box">
 							<div class="image">
-								<a href="team-detail.html"><img src="/coreasusa/public/img/teams/team-5.jpg" alt="" /></a>
+								<a><img src="/coreasusa/public/img/teams/team-5.jpg" alt="" /></a>
 								<div class="social-box">
 									<a href="#" class="fa fa-facebook"></a>
 									<a href="#" class="fa fa-twitter"></a>
@@ -828,16 +828,16 @@
 							</div>
 							<div class="lower-content">
 								<span class="gear-icon"></span>
-								<h5><a href="team-detail.html">Mohammed Kadioui</a></h5>
+								<h5><a>Mohammed Kadioui</a></h5>
 								<div class="designation">Commercial</div>
 								<div class="middle-content">
 									<ul class="list">
-										<li><span class="icon flaticon-call-1"></span>+212 0000000</li>
-										<li><span class="icon flaticon-mail"></span>contact@coreasusa.com</li>
+										<li><span class="icon flaticon-call-1"></span>+212 661-189843</li>
+										<li><span class="icon flaticon-mail"></span>Jboulal@coreasusa.com</li>
 									</ul>
 								</div>
 								<div class="btn-box text-center">
-									<a class="read-more" href="#">
+									<a class="read-more">
 										<?= $lang['read-more'] ?><span class="flaticon-next-3"></span>
 									</a>
 								</div>

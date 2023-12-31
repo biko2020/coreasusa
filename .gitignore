@@ -3,3 +3,4 @@
 # ignore all files in any directroy named temp
 temp/ 
 config/
+adminPanel/config

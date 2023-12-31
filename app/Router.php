@@ -30,19 +30,19 @@ class Router
 
     private function callController($controller)
     {
-        // Assuming controllers are in the 'Controllers' namespace
+        //  controllers are in the 'Controllers' namespace
         $controllerClass = "Controllers\\" . $controller;
 
         // Convert namespace separator to directory separator
         $controllerClassPath = str_replace('\\', '/', $controllerClass);
 
-        // Assuming controllers are in the 'app' directory
+        //  controllers are in the 'app' directory
         $controllerFile = __DIR__ . "/" . $controllerClassPath . ".php";
 
         if (file_exists($controllerFile)) {
             require_once $controllerFile;
 
-            // Instantiate the controller and call a default method (e.g., index())
+            // Instantiate the controller and call a default method (index())
             $controllerInstance = new $controllerClass();
 
             $controllerInstance->index();
@@ -56,7 +56,7 @@ class Router
 
     private function notFound()
     {
-        // Assuming errors are in the 'Error' namespace
+        //  errors are in the 'Error' namespace
         include(__DIR__ . "/../resources/views/Error/not_found.php");
         exit; // Exit the script after displaying the not found page
     }

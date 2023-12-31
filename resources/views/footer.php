@@ -130,7 +130,7 @@
         </div>
 
         <div class="footer-bottom">
-          <div class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Coreasusa - All rights reserved. <a href="#">Coreasusa</a></div>
+          <div class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> - All rights reserved. <a href="#">Coreasusa</a></div>
         </div>
 
       </div>

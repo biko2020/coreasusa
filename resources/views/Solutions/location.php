@@ -146,7 +146,7 @@
 								<a href="#"><img src="/coreasusa/public/img/products/b-02.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Used Forklift Battery</a></h4>
+								<h4><a href="#">New Forklift Battery</a></h4>
 								<div class="text">
 									Voltage: Any volt <br>
 									Lead acid or Lithium-ion<br>
@@ -166,7 +166,7 @@
 								<a href="#"><img src="/coreasusa/public/img/products/t-02.jpg" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h4><a href="#">Used forklift tires</a></h4>
+								<h4><a href="#">New forklift tires</a></h4>
 								<div class="text">
 									Types: Smooth or treaded <br>
 									Any Width and Height <br>

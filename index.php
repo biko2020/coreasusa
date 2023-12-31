@@ -49,7 +49,7 @@ try {
   $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
   //Include navbar.php and pass $lang as parametre
-  include __DIR__ . '/resources/views/navbar.php';
+  include __DIR__ . '/resources/views/header.php';
 
   // Dispatch the route
   $router->dispatch($url);
