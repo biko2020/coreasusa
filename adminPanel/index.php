@@ -4,14 +4,14 @@ ini_set('display_errors', 1);
 
 try {
 
-  require_once __DIR__ . '/vendor/autoload.php';
+  // require_once __DIR__ . '/vendor/autoload.php';
 
   require_once __DIR__ . '/app/Router.php';
 
 
   $adminrouter = new AdminRouter();
 
-  $adminrouter->addAdminRoute('/adminPanel/', 'DashboardController');
+  $adminrouter->addAdminRoute('/coreasusa/adminPanel/', 'DashboardController');
 
   $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 

@@ -35,7 +35,7 @@ class AdminRouter
     if (file_exists($controllerFile)) {
       require_once $controllerFile;
       $controllerInstance = new $controllerClass();
-      $controllerInstance->index();
+      $controllerInstance->admin_construct();
 
     } else {
       $this->notFound();

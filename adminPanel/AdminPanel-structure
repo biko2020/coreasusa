@@ -1,0 +1,23 @@
+coreasusa/
+|-- admin_panel/
+|   |-- adminResources/
+|   |   |--Views/
+|   |   |   |-- Dashboard/
+|   |   |   |   |-- admin.php
+|   |   |   |-- header.php
+|   |--app/
+|   |   |-- Controllers/
+|   |   |   |-- AuthController.php
+|   |   |   |-- DashboardController.php
+|   |   |   |-- UserController.php
+|   |   |-- Model/
+|   |   |   |-- AdminModel.php
+|   |   |-- View/
+|   |   |   |-- dashboard.php
+|   |   |   |-- login.php
+|   |   |   |-- users.php
+|   |   |-- Router.php
+|   |--config/
+|   |   |-- admin_config.php
+|   |--public/
+|   |-- index.php

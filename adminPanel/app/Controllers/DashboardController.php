@@ -4,7 +4,7 @@ namespace Controllers;
 class DashboardController
 {
 
-  public function index()
+  public function admin_construct()
   {
 
     $this->render('Dashboard/admin.php');
@@ -12,7 +12,8 @@ class DashboardController
 
   private function render($view, $data = [])
   {
-    include __DIR__ . "/../../adminResources/$view";
+    include(__DIR__ . "/../../adminResources/views/$view");
+
   }
 
 }
