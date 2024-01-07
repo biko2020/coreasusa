@@ -8,10 +8,15 @@ try {
 
   require_once __DIR__ . '/app/Router.php';
 
+  //Include data file
+  require_once __DIR__ .'/config/create_tables.php';
+
 
   $adminrouter = new AdminRouter();
 
   $adminrouter->addAdminRoute('/coreasusa/adminPanel/', 'DashboardController');
+  $adminrouter->addAdminRoute('/coreasusa/adminPanel/login', 'AuthController');
+  $adminrouter->addAdminRoute('/coreasusa/adminPanel/signup','CreateUserController');
 
   $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 

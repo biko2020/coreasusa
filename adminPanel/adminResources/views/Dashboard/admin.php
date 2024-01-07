@@ -15,6 +15,14 @@
 
     <h1>I am inside dashboard</h1>
 
+    <h2>Inscription</h2>
+      <p>form</p>
+    <hr>
+    <h2>Login</h2>
+      <p>login with form</p>
+      <p>login with media</p>
+      <p>Forget password</p>
+
   </div>
 
 

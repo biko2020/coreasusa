@@ -4,20 +4,24 @@ coreasusa/
 |   |   |--Views/
 |   |   |   |-- Dashboard/
 |   |   |   |   |-- admin.php
-|   |   |   |-- header.php
+|   |   |   |-- Error/
+|   |   |   |   |-- not_found.php
+|   |   |   |-- Login/
+|   |   |   |   |-- Login.php
+|   |   |   |-- SignUp/
+|   |   |   |   |-- signup.php
+|   |   |   |-- header.
+|   |   |   |-- footer.php
 |   |--app/
 |   |   |-- Controllers/
 |   |   |   |-- AuthController.php
+|   |   |   |-- CreateUserController.php
 |   |   |   |-- DashboardController.php
-|   |   |   |-- UserController.php
 |   |   |-- Model/
 |   |   |   |-- AdminModel.php
-|   |   |-- View/
-|   |   |   |-- dashboard.php
-|   |   |   |-- login.php
-|   |   |   |-- users.php
 |   |   |-- Router.php
 |   |--config/
 |   |   |-- admin_config.php
+|   |   |-- create_tables.php
 |   |--public/
 |   |-- index.php

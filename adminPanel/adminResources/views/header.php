@@ -30,10 +30,6 @@
 
 <body>
 
-  <?php
-  require_once(__DIR__ . '/../../config/admin_config.php');
-  ?>
-
   <!-- Main Header  -->
   <header class="main-header header-style-three">
 
