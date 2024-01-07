@@ -27,6 +27,18 @@ class CreateUserController
       $email = $this->validateAndSanitizeEmail($email);
       $password = $this->validateAndSanitizePassword($password);
 
+
+      // validation errors
+      $validationErrors = $this->validateInputs($username, $email, $password);
+
+      if (!empty($validationErrors)) {
+        //redirect to signup with error message
+        $this->admin_construct($validationErrors);
+        //stop  further execution
+        return;
+      }
+
+
       //call the signup method from the model
       $registred = $this->adminModel->signupUser($username, $email, $password);
 
@@ -37,10 +49,24 @@ class CreateUserController
 
       } else {
         //Display signup form via call function
-        $this->admin_construct();
+        $this->admin_construct(['Erreur d Enregistrement ']);
       }
 
     }
+
+  }
+
+  private function validateInputs($username, $email, $password)
+  {
+    $errors = [];
+
+    //validation username rules 
+    if (strlen($username) < 3) {
+      $errors[] = 'le nom de doit etre supperieur a trois caracteres. ';
+    }
+    // validation password rules
+
+    return $errors;
 
   }
 
@@ -69,9 +95,9 @@ class CreateUserController
     return $password;
   }
 
-  public function admin_construct()
+  public function admin_construct($errors = [])
   {
-    $this->render('SignUp/signup.php');
+    $this->render('SignUp/signup.php', ['errors' => $errors]);
   }
 
   private function render($view, $data = [])
