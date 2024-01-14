@@ -15,7 +15,7 @@
 
     <h1>I am inside dashboard</h1>
 
-    <h2>Inscription</h2>
+    <h2><a href="/coreasusa/adminPanel/signup">Inscription</a></h2>
       <p>form</p>
     <hr>
     <h2>Login</h2>

@@ -21,7 +21,8 @@ coreasusa/
 |   |   |   |-- AdminModel.php
 |   |   |-- Router.php
 |   |--config/
-|   |   |-- admin_config.php
+|   |   |-- dataBase.php
 |   |   |-- create_tables.php
+|   |   |--db_connection.php
 |   |--public/
 |   |-- index.php

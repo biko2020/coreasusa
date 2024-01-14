@@ -13,7 +13,7 @@
     <h1>Signup</h1>
 
 
-    <form method="POST" action="">
+    <form method="POST" action="/coreasusa/adminPanel/signup">
 
         <?php if (!empty($errors)): ?>
             <div style="color: red;">
