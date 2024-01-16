@@ -2,6 +2,13 @@
 class AdminRouter
 {
   private $adminRoutes = [];
+
+  private $pdo;
+
+  public function __construct($pdo){
+    $this->pdo = $pdo;
+  }
+
   public function addAdminRoute($url, $controller)
   {
     $this->adminRoutes[$url] = $controller;
@@ -34,8 +41,9 @@ class AdminRouter
 
     if (file_exists($controllerFile)) {
       require_once $controllerFile;
-      $controllerInstance = new $controllerClass();
+      $controllerInstance = new $controllerClass($this->pdo);
       $controllerInstance->admin_construct();
+      
 
     } else {
       $this->notFound();

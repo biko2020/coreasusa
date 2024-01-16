@@ -1,5 +1,5 @@
 <?php
-namespace Models;
+namespace Model;
 
 class AdminModel
 {
@@ -40,7 +40,7 @@ class AdminModel
 
     } catch (\PDOException $e) {
 
-      log($e->getMessage());
+      error_log($e->getMessage());
 
       return false;
 
@@ -50,10 +50,11 @@ class AdminModel
 
 
   //Impelement signupUser Method
-  public function signupUser($username, $email, $password)
+  public function createUser($username, $email, $password)
   {
     try {
 
+     
       //Hash password befor storing it
       $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 

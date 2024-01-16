@@ -26,3 +26,5 @@ coreasusa/
 |   |   |--db_connection.php
 |   |--public/
 |   |-- index.php
+|   |-- vendor/
+|   |   |-- autoload.php

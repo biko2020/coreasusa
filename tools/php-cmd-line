@@ -1,0 +1,22 @@
+
+**** Internal Server Error ****
+this issue caused by RewriteRule in .htaccess file  
+
+--- apache2 service 
+sudo service apache2 start
+sudo service apache2 stop
+sudo service apache2 restart
+
+--- php-mysql-install
+sudo apt-get install php-mysql
+
+-- open php.ini
+sudo nano /etc/php/7.4/apache2/php.ini
+ --> Enabled pdo_mysql 
+      extention=pdo_mysql
+
+--- php error log
+sudo tail -f /var/log/apache2/error.log
+
+--- clean Apache Error 
+sudo bash -c 'echo > /var/log/apache2/error.log'

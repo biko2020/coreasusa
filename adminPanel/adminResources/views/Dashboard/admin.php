@@ -13,12 +13,10 @@
 
   <div class="page-wrapper">
 
-    <h1>I am inside dashboard</h1>
-
-    <h2><a href="/coreasusa/adminPanel/signup">Inscription</a></h2>
+    <h4><a href="/coreasusa/adminPanel/signup">Inscription</a></h4>
       <p>form</p>
     <hr>
-    <h2>Login</h2>
+    <h4><a href="#">Login</a></h4>
       <p>login with form</p>
       <p>login with media</p>
       <p>Forget password</p>

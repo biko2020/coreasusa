@@ -3,16 +3,17 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 try {
-
-  // require_once __DIR__ . '/vendor/autoload.php';
-
-  require_once __DIR__ . '/app/Router.php';
+  //Load the autoload.php
+  require_once __DIR__ . '/vendor/autoload.php';
 
   //Include connection data file
   require_once __DIR__ . '/config/db_connection.php';
+  require_once __DIR__ . '/app/Router.php';
 
+  //  instatiate pdo
+  $pdo = $database->getPdo();
 
-  $adminrouter = new AdminRouter();
+   $adminrouter = new AdminRouter($pdo);
 
   $adminrouter->addAdminRoute('/coreasusa/adminPanel/', 'DashboardController');
   $adminrouter->addAdminRoute('/coreasusa/adminPanel/login', 'AuthController');

@@ -1,7 +1,7 @@
 <?php
 namespace Controllers;
 
-use Models\AdminModel;
+use \Model\AdminModel;
 
 class CreateUserController
 {
@@ -10,12 +10,18 @@ class CreateUserController
 
   public function __construct($pdo)
   {
+    // intantiate a Model
     $this->adminModel = new AdminModel($pdo);
+
+    // call getUserData
+    $this->getUserData();
+
   }
 
 
-  public function signup()
+  public function getUserData()
   {
+    var_dump("I am inside getUserData Function");
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $username = $_POST['username'];
@@ -39,8 +45,8 @@ class CreateUserController
       }
 
 
-      //call the signup method from the model
-      $registred = $this->adminModel->signupUser($username, $email, $password);
+      //call the signupUser method from the model
+      $registred = $this->adminModel->createUser($username, $email, $password);
 
       if ($registred) {
 
@@ -64,7 +70,13 @@ class CreateUserController
     if (strlen($username) < 3) {
       $errors[] = 'le nom de doit etre supperieur a trois caracteres. ';
     }
-    // validation password rules
+    // if($email){
+    //   // validation email
+    // }
+    // if($password){
+    //   // validation password rules
+    // }
+
 
     return $errors;
 
@@ -97,6 +109,7 @@ class CreateUserController
 
   public function admin_construct($errors = [])
   {
+
     $this->render('SignUp/signup.php', ['errors' => $errors]);
   }
 

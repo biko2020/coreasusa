@@ -12,7 +12,6 @@
 <body>
     <h1>Signup</h1>
 
-
     <form method="POST" action="/coreasusa/adminPanel/signup">
 
         <?php if (!empty($errors)): ?>
@@ -24,7 +23,7 @@
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
-        
+
         <label for="username">Username:</label>
         <input type="text" name="username" required>
         <br>
@@ -39,6 +38,7 @@
 
         <button type="submit">Signup</button>
     </form>
+
 </body>
 
 </html>
