@@ -18,7 +18,6 @@ class CreateUserController
 
   }
 
-
   public function getUserData()
   {
     var_dump("I am inside getUserData Function");
