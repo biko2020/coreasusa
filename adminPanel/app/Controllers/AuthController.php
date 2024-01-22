@@ -1,7 +1,7 @@
 <?php
 namespace Controllers;
 
-use Models\AdminModel;
+use Model\AdminModel;
 
 class AuthController
 {

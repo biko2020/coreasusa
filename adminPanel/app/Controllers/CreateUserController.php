@@ -20,7 +20,6 @@ class CreateUserController
 
   public function getUserData()
   {
-    var_dump("I am inside getUserData Function");
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $username = $_POST['username'];
@@ -51,6 +50,8 @@ class CreateUserController
 
         // Registration successful
         // Redirect to login page
+        header("Location: /coreasusa/adminPanel/login");
+        exit();
 
       } else {
         //Display signup form via call function

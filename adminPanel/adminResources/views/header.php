@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Dashboard Panel Menu</title>
+  
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/coreasusa/public/css/bootstrap.css">
   <link rel="stylesheet" href="/coreasusa/public/css/style.css">
   <link rel="stylesheet" href="/coreasusa/public/css/responsive.css">
+  <link rel="stylesheet" href="/coreasusa/adminPanel/public/css/admin_style.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link
