@@ -4,7 +4,7 @@ namespace Controllers;
 class DashboardController
 {
 
-  public function admin_construct()
+  public function admin_construct($url)
   {
 
     $this->render('Dashboard/admin.php');

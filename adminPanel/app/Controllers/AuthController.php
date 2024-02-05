@@ -25,6 +25,7 @@ class AuthController
 
       $authenticated = $this->adminModel->authenticateUser($username, $password);
 
+      
       if ($authenticated) {
         //Authenticated successful
         //Redirect to admin managemant

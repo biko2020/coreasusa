@@ -54,7 +54,7 @@ class AdminModel
   {
     try {
 
-     
+
       //Hash password befor storing it
       $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
@@ -90,8 +90,24 @@ class AdminModel
 
       //Rollback if transaction error
       $this->pdo->rollBack();
-      return false;
+      return "Error during user creation.";
     }
+
+  }
+
+  public function checkEmailTaken($email)
+  {
+    return $this->isEmailTaken($email);
+  }
+  // Helper Method to check if  email alerady existe
+
+  private function isEmailTaken($email)
+  {
+    $stmt = $this->pdo->prepare("select count(*) from users where email = :email");
+    $stmt->bindParam(':email', $email);
+    $stmt->execute();
+
+    return $stmt->fetchColumn() > 0;
 
   }
 

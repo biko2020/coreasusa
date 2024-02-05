@@ -1,4 +1,4 @@
-<!-- admin_panel/adminResources/views/SignUp/signup.php -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,38 +14,42 @@
         <div class="title_container">
           <h2>Sign Up</h2>
         </div>
-        <div id="error-message" style="color: red;"></div>
+        <div id="error-message" style="color: red; font-size:16px; font-weight: bold;"></div>
         <div class="row clearfix">
           <div class="col_full last">
 
-            <?php if (!empty($errors)): ?>
-              <div style="color: red;">
-                <?php foreach ($errors as $error): ?>
-                  <p>
+      <?php if (isset($data['errors']) && is_array($data['errors']) && !empty($data['errors'])): ?>
+              <div>
+              <?php foreach ($data['errors'] as $error): ?>
+                  <p style="color: red; font-size:16px; font-weight: bold;">
                     <?php echo $error; ?>
                   </p>
                 <?php endforeach; ?>
               </div>
             <?php endif; ?>
 
-            <form method="post" action="/coreasusa/adminPanel/login" onsubmit="return validationForm()">
+            <form method="post" action="/coreasusa/adminPanel/signup" onsubmit="return validationForm()">
               <div class="input_field">
                 <span> <i class="fa fa-user" aria-hidden="true"></i></span>
                 <input type="text" name="username" placeholder="Name" required="">
               </div>
-              <div class="input_field"><span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+
+              <div class="input_field">
+                <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
                 <input type="email" name="email" placeholder="Email" required="">
               </div>
-              <div class="input_field">
 
-                <input type="password" id="password" name="password" placeholder="Password" required>
+              <div class="input_field">
                 <span id="togglePassword" onclick="togglePasswordVisibility()">
-                  <i class="fa fa-eye" aria-hidden="true"></i>
-                </span>
+                  <i class="fa fa-eye" aria-hidden="true"></i></span>
+                <input type="password" id="password" name="password" placeholder="Password" required>
               </div>
-              <div class="input_field"><span><i class="fa fa-lock" aria-hidden="true"></i></span>
+              
+              <div class="input_field">
+                <span><i class="fa fa-lock" aria-hidden="true"></i></span>
                 <input type="password" id="retap-password" name="retap-password" placeholder="Retyp Password" required>
               </div>
+              
               <input class="button" type="submit" value="Create an Account">
               <div class="row clearfix bottom_row">
                 <div class="col_half remember_me">

@@ -22,7 +22,7 @@ class AdminRouter
       $pattern = "@^" . preg_quote($route, '@') . "$@";
       if (preg_match($pattern, $url)) {
         $found = true;
-        $this->callController($controller);
+        $this->callController($controller, $url);
         break;
       }
     }
@@ -33,7 +33,7 @@ class AdminRouter
 
   }
 
-  private function callController($controller)
+  private function callController($controller, $url)
   {
     $controllerClass = "Controllers\\" . $controller;
     $controllerClassPath = str_replace('\\', '/', $controllerClass);
@@ -42,7 +42,7 @@ class AdminRouter
     if (file_exists($controllerFile)) {
       require_once $controllerFile;
       $controllerInstance = new $controllerClass($this->pdo);
-      $controllerInstance->admin_construct();
+      $controllerInstance->admin_construct($url);
       
 
     } else {
