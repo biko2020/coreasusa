@@ -8,7 +8,7 @@ ob_start();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Dashboard Panel Menu</title>
-  
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/coreasusa/public/css/bootstrap.css">
   <link rel="stylesheet" href="/coreasusa/public/css/style.css">
@@ -69,7 +69,7 @@ ob_start();
                   <li><a href="/coreasusa/adminPanel/">Admin Dashboard</a></li>
                 </ul>
               </div>
-               <!-- End navbar Menu -->
+              <!-- End navbar Menu -->
             </nav>
           </div>
 
