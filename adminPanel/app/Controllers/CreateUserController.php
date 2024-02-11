@@ -100,19 +100,22 @@ class CreateUserController
     $errors = [];
 
     // validation and sanitizartion of usersname  
-    $usernameData = $this->validateAndSanitizeUsername($username);
-    $username = $usernameData['username'];
-    $specialCharacters = $usernameData['specialCharacters'];
+    $sanitizedUsername = $this->validateAndSanitizeUsername($username);
 
-    $getUsername = $usernameData['username'];
+    // Calculate the length of the username 
+    $usernameLength = strlen($sanitizedUsername);
 
     // validation and sanitized of username
     $minUsernameLength = 3;
-    if (strlen($getUsername) < $minUsernameLength ) {
+    $maxUsernameLength = 15;
+    if ($usernameLength < $minUsernameLength) {
       $errors[] = 'User name must be at last ' . $minUsernameLength . ' characters. ';
+    } elseif ($usernameLength > $maxUsernameLength) {
+      $errors[] = 'User name must be less ' . $maxUsernameLength . 'characters.';
     }
 
-    if ($specialCharacters) {
+    //check for special caracters
+    if (preg_match('/[!@#£$%^&*()_+={}\[\]:;<>,.?\/\-]/', $sanitizedUsername)) {
       $errors[] = 'Username must contain only  letters and numbers.';
     }
 
@@ -135,16 +138,12 @@ class CreateUserController
 
   private function validateAndSanitizeUsername($username)
   {
-    // store the original username
-    $originalUsername = $username;
 
-    // Ensuring it contains only letters and numbers
-    $sanitizedUsername = preg_replace("/[^a-zA-Z0-9]/", "", $username);
+    // Regular expressions to check for special characters
+    // $spacialCharactsFound = preg_match('/[!@#£$%^&*()_+={}\[\]:;<>,.?\/\-]/', $username);
 
-    // check if sanitized username differs from original
-    $specialCharacters = ($sanitizedUsername !== $originalUsername);
 
-    return ['username' => $sanitizedUsername, 'specialCharacters' => $specialCharacters]; // Corrected array key
+    return $username;
   }
 
 
