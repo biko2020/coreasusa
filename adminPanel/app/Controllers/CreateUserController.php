@@ -111,7 +111,7 @@ class CreateUserController
     if ($usernameLength < $minUsernameLength) {
       $errors[] = 'User name must be at last ' . $minUsernameLength . ' characters. ';
     } elseif ($usernameLength > $maxUsernameLength) {
-      $errors[] = 'User name must be less ' . $maxUsernameLength . 'characters.';
+      $errors[] = 'User name must be less than ' . $maxUsernameLength . ' characters. ';
     }
 
     //check for special caracters
@@ -123,6 +123,11 @@ class CreateUserController
     $email = $this->validateAndSanitizeEmail($email);
     if ($this->adminModel->checkEmailTaken($email)) {
       $errors[] = 'Email déja existant.';
+    }
+
+    //check for illigal characters in Email
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
+      $errors[]='Email contains illegal characters';
     }
 
     // validation and sanitized of password
