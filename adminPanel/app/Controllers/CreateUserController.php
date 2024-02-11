@@ -126,8 +126,8 @@ class CreateUserController
     }
 
     //check for illigal characters in Email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
-      $errors[]='Email contains illegal characters';
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $errors[] = 'Email contains illegal characters';
     }
 
     // validation and sanitized of password
@@ -136,6 +136,20 @@ class CreateUserController
     if (strlen($password) < $minlenght) {
       $errors[] = 'Password must be at last ' . $minlenght . ' characters long.';
     }
+
+    // Additional checks for password strength
+    if (!preg_match('/[A-Z]/', $password)) {
+      $errors[] = 'Password must contain at least one uppercase letter.';
+    }
+    if (!preg_match('/[a-z]/', $password)) {
+      $errors[] = 'Password must contain at least one lowercase letter.';
+    }
+    if (!preg_match('/[0-9]/', $password)) {
+      $errors[] = 'Password must contain at least one digit.';
+    }
+    if (!preg_match('/[^a-zA-Z0-9]/', $password)) {
+      $errors[] = 'Password must contain at least one special character.';
+  }
 
     return $errors;
   }
@@ -161,7 +175,7 @@ class CreateUserController
   private function validateAndSanitizePassword($password)
   {
     //enforce minimum length and use htmlentities
-    return htmlspecialchars($password, ENT_QUOTES, 'UTF-8');
+    return htmlspecialchars(strip_tags($password), ENT_QUOTES, 'UTF-8');
 
   }
 
